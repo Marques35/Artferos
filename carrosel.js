@@ -36,11 +36,11 @@ document.addEventListener("DOMContentLoaded", function() {
         updateRadioBtn();
         clearInterval(intervalId);
         // Iniciar a navegação automática novamente após 5 segundos
-        intervalId = setInterval(nextSlide, 5000);
+        intervalId = setInterval(nextSlide, 3000);
       });
     });
   
     // Iniciar a navegação automática
-    intervalId = setInterval(nextSlide, 5000);
+    intervalId = setInterval(nextSlide, 3000);
   });
   
