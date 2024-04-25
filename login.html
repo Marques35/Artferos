@@ -12,18 +12,37 @@
 
 <body>
     <div>
-        <img src="teste (1).png" width="130" >
+        <form id="loginForm">
+        <img src="img/teste (1).png" width="130" >
         <h1>Login</h1>
         <input type="text" nome="Email" id="Email" placeholder="Email">
         <br><br>
         <input type="password" name="senha" id="senha" placeholder="Senha">
         <br><br><br>
-        <button type = "submit">Entrar</button>
+        <button  type = "submit" id="submitBtn">Entrar</button>
         <br><br>
         <p>Não tem cadastro? <a  href="cadastro.html">Crie agora!</a></p>
         </form>
     </div>
     </div>
+
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", function(event) {
+            console.log("Formulário enviado");
+            var email = document.getElementById("Email").value;
+            var senha = document.getElementById("senha").value;
+
+            if (email.trim() === '' || senha.trim() === '') {
+                alert("Por favor, preencha todos os campos.");
+                event.preventDefault(); // Impede a submissão padrão do formulário
+            } else {
+                console.log("Redirecionando para Menu-inicio.html...");
+                // Redireciona para a página especificada
+                window.location.href = "Menu-inicio.html";
+            }
+        });
+    </script>
+
 </body>
 
 </html>
