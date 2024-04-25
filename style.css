@@ -14,7 +14,7 @@ body{
 .containerframe {
     max-width: auto;
     display: flex;
-    margin: 10px;
+    margin: 50px;
     align-items: center;
     justify-content: center;
 	
@@ -73,7 +73,7 @@ div.menu {
 .box { 
    
 	width:1100px;
-	height:420px;
+	height:430px;
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
 	border-bottom-left-radius:50px;
@@ -87,15 +87,15 @@ div.menu {
 
 .e35_63 {
     position: absolute; 
-    top: 50%; 
-    left: 40%;
+    top: 20%; 
+    left: 20%;
     transform: translate(-50%, -0%); 
-    color: rgb(245, 228, 228);
+    color: rgb(196, 245, 192);
     width: 500px;
     height: 92px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    font-size: 36px;
+    font-size: 50px;
 }
 
 
@@ -244,12 +244,13 @@ border-radius: 18px;
 
 
 
-a {
+.inicio {
     text-decoration: none;
-    text-decoration: underline green;
+    
     color: rgb(0, 0, 0);
-    font-size: 18px;
-    padding: 20px 20px 20px;
+	text-decoration: underline rgba(134.01931017637253, 167.87500709295273, 90.93228980898857, 1);
+    font-size: 20px;
+    padding: 25px 25px 25px;
 }
 
 main{
@@ -266,3 +267,37 @@ h1{
     color: rgb(0, 0, 0);
 	
 }
+
+.fim2{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 20px 20px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 120px;
+}
+
+
+.vector
+{
+background-color: rgb(228, 228, 228);
+height:40px;
+width:48px;
+left:200px;
+top:2550px;
+position:absolute;
+object-fit: cover;
+}
+
+.introdution{
+	
+	
+	color: rgb(253, 253, 253);
+    font-size: 23px;
+    padding: 20px 20px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 70px;
+	margin-top: 230px;
+}
+
+
