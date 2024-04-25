@@ -1,7 +1,7 @@
 
 
 body { 
-    background-image: url("7-71159_jungle-wallpaper-hd.jpg");
+    background-image: url("img/7-71159_jungle-wallpaper-hd.jpg");
     background-size : 2500px;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -34,6 +34,19 @@ input {
     outline: none;
 }
 button{
+    background-color: rgb(4, 90, 11);
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    
+    
+}
+
+.Entrar{
     background-color: rgb(4, 90, 11);
     border: none;
     padding: 8px;
