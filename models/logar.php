@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         // Usuário não encontrado, exibe uma mensagem de erro
-        header("Location: login.php?login=erro");
+        header("Location: ../view/login.php?login=erro");
         exit();
     }
 

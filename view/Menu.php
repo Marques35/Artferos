@@ -40,7 +40,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                         </form>
 
                     </div> <!-- txt-topo-site  -->
-                    <div class="../img-topo-site ms-5">
+                    <div class=" img-topo-site ms-5">
                         <img src="../img/guaxinim.webp">
                     </div> <!-- ing topo site -->
 
