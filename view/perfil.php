@@ -51,6 +51,7 @@ $conn = null;
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/super.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -94,6 +95,8 @@ $conn = null;
         </section>
         <br>
     </main>
+    <?php include '../controller/footer.php'; ?>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         function enableEditing() {
