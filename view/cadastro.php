@@ -19,6 +19,8 @@
             <br><br><br>
             <button type="submit">Cadastrar</button>
         </form>
+
+        
         <br><br>
         <form action="../view/login.php">
         <p>Já possui uma conta? <a href="login.php">Faça login aqui!</a></p>

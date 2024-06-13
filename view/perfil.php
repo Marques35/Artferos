@@ -55,6 +55,7 @@ $conn = null;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Projeto Minas</title>
 </head>
 
@@ -65,8 +66,7 @@ $conn = null;
     <main>
         <section>
             <div class="container">
-                <div class="form-image d-flex justify-content-center align-items-center">
-                    <img src="../img/dogperfil-removebg-preview.png" alt="">
+              
                 </div>
                 <div class="form">
                     <div class="form-header">
@@ -74,19 +74,17 @@ $conn = null;
                             <h1>Meu perfil</h1>
                         </div>
                     </div>
-                    <form id="profileForm" action="modificar.php" method="POST">
-                        <div>
-                            <input id="nome" type="text" name="nome" value="<?php echo $_SESSION['nome']; ?>" disabled>
+                    <form id="profileForm" action="../models/modificar.php" method="POST">       
+                            <input class="" id="nome" type="text" name="nome" value="<?php echo $_SESSION['nome']; ?>" disabled>
                             <br><br>
                             <input id="email" type="email" name="email" value="<?php echo $_SESSION['email']; ?>" disabled>
                             <br><br>
-                            <input id="senha" type="password" name="password" value="<?php echo $_SESSION['senha']; ?>" disabled><br>
-                            <input type="checkbox" id="showPassword" onclick="togglePasswordVisibility()"> Mostrar Senha
+                            <input id="senha" type="password" name="password" value="<?php echo $_SESSION['senha']; ?>" disabled>
+                            <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
                             <br><br><br>
                             <button class="btn btn-danger" type="button" onclick="deleteAccount()">Deletar</button>
                             <button class="btn btn-primary" type="button" onclick="enableEditing()">Editar</button>
                             <button class="btn btn-success" type="submit">Salvar</button>
-                        </div>
                     </form>
                     <form id="deleteForm" action="../models/deletar.php" method="POST" style="display:none;">
                         <input type="hidden" name="delete" value="1">
@@ -119,6 +117,8 @@ $conn = null;
             }
         }
     </script>
+
+    <script src="mostrarSenha.js"></script>
 </body>
 
 </html>
