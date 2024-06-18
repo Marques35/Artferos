@@ -10,7 +10,6 @@
             <nav class="menu-desktop">
                 <ul class="d-flex p-0 m-0">
                     <li class="list-group-item "><a href="#">Contato</a></li>
-                    <li class="list-group-item"><a href="#">Sobre Nós</a></li>
                 </ul>
             </nav>
             <form action="perfil.php">
@@ -23,3 +22,4 @@
 
         </div>
     </header>
+    
