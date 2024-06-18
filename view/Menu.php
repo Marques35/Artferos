@@ -49,14 +49,10 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
             </div> <!--interface -->
         </section> <!--topo do site -->
     </main>
-<<<<<<< HEAD
     <?php include '../controller/carrossel.php';?>
     
-    <?php include '../controller/footer.php';?>
-=======
 
     <?php include '../controller/footer.php'; ?>
->>>>>>> 2eb6ec2488e63a548840b0d43698a3befaa9cf96
 </body>
 
 </html>
