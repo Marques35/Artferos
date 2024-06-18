@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -56,7 +56,6 @@
                     </button>
                 </div>
             </div>
-=======
 <footer>
         <div class="footer-content">
             <p>
@@ -66,7 +65,6 @@
                 <a href="https://www.instagram.com" i target="_blank">Instagram</a>
             </p>
             <p>&copy; 2024 Projeto Minas - Fauna.</p>
->>>>>>> d294e8da5fe5c1fffd4a72f9b6690718f76a4afd
         </div>
 
         <div id="footer_copyright">
