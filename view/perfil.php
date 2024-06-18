@@ -127,12 +127,14 @@ $conn = null;
 
     <script src="mostrarSenha.js"></script>
 
+<<<<<<< HEAD
     
+=======
+    <?php include '../controller/footer.php'; ?>
+>>>>>>> 2eb6ec2488e63a548840b0d43698a3befaa9cf96
 </body>
-<footer>
-<br><br>
-   <center><?php include '../controller/footer.php'; ?></center>
-</footer>
+   
+
 
 
 </html>
