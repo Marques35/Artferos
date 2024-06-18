@@ -31,7 +31,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                         <p>Ajudando você a indentificar espécies
                             mamíferas de Minas Gerais.</p>
 
-                        <form action="index.html">
+                        <form action="index.php">
                             <div class="btn-contato">
                                 <a href="#">
                                     <button>Identifique seu Animal !</button>
@@ -47,12 +47,10 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                 </div> <!-- flex -->
             </div> <!--interface -->
         </section> <!--topo do site -->
-
-        <secection>
-
-
-        </secection>
     </main>
+    <?php include '../controller/carrossel.php';?>
+    
+    <?php include '../controller/footer.php';?>
 </body>
 
 </html>
