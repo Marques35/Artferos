@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/super.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- google fonts  -->
@@ -31,7 +32,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                         <p>Ajudando você a indentificar espécies
                             mamíferas de Minas Gerais.</p>
 
-                        <form action="index.html">
+                        <form action="index.php">
                             <div class="btn-contato">
                                 <a href="#">
                                     <button>Identifique seu Animal !</button>
@@ -53,6 +54,8 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
         </secection>
     </main>
+
+    <?php include '../controller/footer.php'; ?>
 </body>
 
 </html>

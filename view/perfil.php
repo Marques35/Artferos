@@ -122,11 +122,11 @@ $conn = null;
     </script>
 
     <script src="mostrarSenha.js"></script>
+
+    <?php include '../controller/footer.php'; ?>
 </body>
-<footer>
-<br><br>
-   <center><?php include '../controller/footer.php'; ?></center>
-</footer>
+   
+
 
 
 </html>

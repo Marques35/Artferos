@@ -17,6 +17,7 @@
     </style>
 </head>
 <body>
+    <?php include '../controller/cabecalho.php';?>
     <h1>Reconhecimento de imagem com Clarifai</h1>
     <form id="imageForm">
         <input type="file" id="imageInput" accept="image/*">
