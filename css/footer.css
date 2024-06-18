@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 :root {
@@ -130,6 +131,18 @@ footer {
 
 #input_group button:hover {
     opacity: 0.8;
+=======
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.footer-content p {
+    margin: 5px 0;
+    text-align: center; 
+>>>>>>> d294e8da5fe5c1fffd4a72f9b6690718f76a4afd
 }
 
 #footer_copyright {
