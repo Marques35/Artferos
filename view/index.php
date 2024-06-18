@@ -24,11 +24,8 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     </style>
 </head>
 <body>
-<<<<<<< HEAD
    <?php include '../controller/cabecalho.php'; ?>
-=======
-    <?php include '../controller/cabecalho.php';?>
->>>>>>> 2eb6ec2488e63a548840b0d43698a3befaa9cf96
+   
     <h1>Reconhecimento de imagem com Clarifai</h1>
     <form id="imageForm">
         <input type="file" id="imageInput" accept="image/*">
