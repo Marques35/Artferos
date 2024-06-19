@@ -27,13 +27,11 @@
                 <!--end footer col-->
                 <!-- footer col-->
                 <div class="footer-col">
-                    <h4>Obter ajuda</h4>
+                    <h4>Contato</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Transporte</a></li>
-                        <li><a href="#">devoluções</a></li>
-                        <li><a href="#">Status De Pedido</a></li>
-                        <li><a href="#">Opções De Pagamento</a></li>
+                        <li><a href="#">projetominas@gmail.com</a></li>
+                        <li><a href="#">(31) 9 9999999</a></li>
+                        <li><a href="#">Brasil - Minas Gerais</a></li>
                     </ul>
                 </div>
                 <!--end footer col-->
@@ -55,8 +53,7 @@
                     <div class="medias-socias">
                         <a href="#"> <i class="fa fa-facebook"></i> </a>
                         <a href="#"> <i class="fa fa-instagram"></i> </a>
-                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                        <a href="#"> <i class="fa fa-github"></i> </a>
                     </div>
 
                 </div>
