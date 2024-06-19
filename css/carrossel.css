@@ -5,10 +5,11 @@ main{
  display:grid;
  place-items: center;
  height: 100vh;
+ margin-top: 50px;
 }
 
 #items-wrapper{
-    width: 85vw;
+    width: 100vw;
    
    
 }
@@ -16,9 +17,9 @@ main{
 #items{
   display: flex;
   overflow-y: hidden;
-  overflow-x: auto ;
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
-  border-radius: 20px;
+  border-radius: 0px;
   scroll-behavior: smooth;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.418);
 }

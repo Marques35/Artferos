@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/super.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
                     </div> <!-- txt-topo-site  -->
                     <div class=" img-topo-site ms-5">
-                        <img src="../img/guaxinim.webp">
+                        <img src="../img/guaxinim.webp" >
                     </div> <!-- ing topo site -->
 
                 </div> <!-- flex -->

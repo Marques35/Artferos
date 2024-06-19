@@ -38,11 +38,10 @@ body {
 .flex {
     display: flex;
     margin-left: 50px;
-
 }
 
 .flex img {
-
+   
     margin-top: -70px;
 }
 
@@ -106,6 +105,9 @@ section.topo-do-site {
 .img-topo-site img{
  
  width: 500px;
+ 
+ height: auto;
+ display: block;
 }
 
 
