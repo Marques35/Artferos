@@ -90,7 +90,6 @@ $conn = null;
                         <input type="hidden" name="delete" value="1">
                     </form>
                 </div>
-            </div>
         </section>
         <br>
     </main>

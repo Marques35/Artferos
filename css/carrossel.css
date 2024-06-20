@@ -4,14 +4,14 @@
 main{
  display:grid;
  place-items: center;
- height: 100vh;
- margin-top: 50px;
+ height: 70vh;
+
 }
 
 #items-wrapper{
-    width: 100vw;
-   
-   
+    width: 95vw;
+ 
+
 }
 
 #items{
@@ -19,7 +19,7 @@ main{
   overflow-y: hidden;
   overflow-x: hidden;
   scroll-snap-type: x mandatory;
-  border-radius: 0px;
+   border-radius: 25px; 
   scroll-behavior: smooth;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.418);
 }

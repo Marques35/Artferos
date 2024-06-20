@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/super.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- google fonts  -->
@@ -19,7 +18,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     <title>Projeto Minas</title>
 </head>
 
-<body>
+<body class="animation">
 
     <?php include '../controller/cabecalho.php'; ?>
 
@@ -43,15 +42,39 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
                     </div> <!-- txt-topo-site  -->
                     <div class=" img-topo-site ms-5">
-                        <img src="../img/guaxinim.webp" >
+                        <img src="../img/guaxinim.webp">
                     </div> <!-- ing topo site -->
 
                 </div> <!-- flex -->
             </div> <!--interface -->
         </section> <!--topo do site -->
     </main>
-    <?php include '../controller/carrossel.php';?>
-    
+    <?php include '../controller/carrossel.php'; ?>
+
+    <main>
+        <section class="body-card">
+            <div class="container-cards">
+                <div class="cards">
+                    <span class="overlay"><div class="card-item"><img src="../img/image-removebg-preview.png" alt="imagem 1"></div></span>
+                 
+                    <h1>10</h1>
+                    <p class="text-card">
+                        Parques Ecológicos presentes na busca da I.A
+                    </p>
+                </div>
+
+                <div class="cards">
+                    <span class="overlay"><div class="card-item"><img src="../img/image-removebg-animal.png" alt="imagem 1"></div></span>
+                    
+                    <h1>50</h1>
+                    <p class="text-card">
+                     Mamíferos já presentes na busca da I.A
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
 
     <?php include '../controller/footer.php'; ?>
 </body>

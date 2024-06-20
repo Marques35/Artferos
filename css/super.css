@@ -8,6 +8,7 @@
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    margin: 0; padding: 0; box-sizing: border-box;
 }
 
 ::-webkit-scrollbar{
@@ -104,7 +105,7 @@ section.topo-do-site {
 
 .img-topo-site img{
  
- width: 500px;
+ width: 400px;
  
  height: auto;
  display: block;
@@ -154,9 +155,90 @@ section.topo-do-site.flex {
 
 
 
-/* Perfil css: */
+/* cards css: */
+ 
 
+/* Cards CSS */
+.body-card {
+    margin-top: 150px;
+}
 
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    padding: 0 20px;
+   
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.418);
+    border-radius: 30px;
+    background-color: rgb(236, 233, 233);
+    position: relative;
+    flex: 1 1 calc(33.333% - 40px); /* Ajusta a largura dos cards */
+    box-sizing: border-box;
+    max-width: 300px;
+   
+   
+}
 
+.cards:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(97, 202, 87);
+    box-shadow-top: 2px 2px 12px rgba(0, 0, 0, 0.418);
+}
+
+.card-item img {
+    width: 45px;
+    margin-top: 40px;
+}
+
+.cards h1 {
+    margin-bottom: 10px;
+    margin-top: 60px;
+    color: rgb(29, 44, 29);
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.text-card {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    color: rgb(29, 44, 29);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cards {
+        flex: 1 1 calc(100% - 40px); /* 2 cards por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        flex: 1 1 calc(100% - 40px); /* 1 card por linha */
+    }
+}
 

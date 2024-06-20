@@ -1,9 +1,9 @@
 body {
-    background-image: url("../img/7-71159_jungle-wallpaper-hd.jpg");
+    background-image: url("../img/7-71159_jungle-wallpaper-hd.jpg") ;
     background-size: 2500px;
     background-position: center;
     font-family: Arial, sans-serif;
-
+    
 }
 
 
@@ -18,9 +18,8 @@ div {
     padding: 60px;
     padding-block: 0%;
     border-radius: 15px;
-
-
-    color: white;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -32,10 +31,11 @@ h1 {
 
 input {
     width: 85%;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 15px;
-    border: none;
+    border: 2px solid rgb(255, 255, 255, .2);
     outline: none;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -46,7 +46,7 @@ button {
     padding: 8px;
     width: 100%;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 40px;
     font-size: 20px;
 
@@ -58,7 +58,7 @@ button {
     border: none;
     padding: 8px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     height: 40px;
     font-size: 20px;
