@@ -185,8 +185,6 @@ section.topo-do-site.flex {
     flex: 1 1 calc(33.333% - 40px); /* Ajusta a largura dos cards */
     box-sizing: border-box;
     max-width: 300px;
-   
-   
 }
 
 .cards:hover{
@@ -214,7 +212,7 @@ section.topo-do-site.flex {
 
 .cards h1 {
     margin-bottom: 10px;
-    margin-top: 60px;
+    margin-top: 80px;
     color: rgb(29, 44, 29);
     font-weight: 1000;
     font-size: 50px;
@@ -224,8 +222,8 @@ section.topo-do-site.flex {
 
 .text-card {
     margin-top: 30px;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 900;
+    font-size: 18px;
     color: rgb(29, 44, 29);
 }
 
