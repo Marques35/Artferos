@@ -117,7 +117,7 @@ $conn = null;
         }
     </script>
 
-    <script src="mostrarSenha.js"></script>
+    <script src="../models/mostrarSenha.js"></script>
 
     <?php include '../controller/footer.php'; ?>
 </body>

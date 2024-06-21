@@ -34,9 +34,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
                         <form action="index.php">
                             <div class="btn-contato">
-                                <a href="#">
                                     <button>Identifique seu Animal !</button>
-                                </a>
                             </div>
                         </form>
 
@@ -54,20 +52,18 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     <main>
         <section class="body-card">
             <div class="container-cards">
+
                 <div class="cards">
-                    <span class="overlay"><div class="card-item"><img src="../img/image-removebg-preview.png" alt="imagem 1"></div></span>
-                 
-                    <h1>10</h1>
+                    <div class="card-item"><img src="../img/image-removebg-preview.png" alt="imagem 1"></div>
                     <p class="text-card">
-                        Parques Ecológicos presentes na busca da I.A
+                    <h1>10</h1>  Parques Ecológicos presentes na busca da I.A
                     </p>
                 </div>
 
                 <div class="cards">
-                    <span class="overlay"><div class="card-item"><img src="../img/image-removebg-animal.png" alt="imagem 1"></div></span>
-                    
-                    <h1>50</h1>
+                    <div class="card-item"><img src="../img/image-removebg-animal.png" alt="imagem 1"></div>     
                     <p class="text-card">
+                    <h1>50</h1>
                      Mamíferos já presentes na busca da I.A
                     </p>
                 </div>
@@ -76,6 +72,11 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         </section>
     </main>
 
+    <main>
+    <?php include '../controller/sobrenos.html'; ?>
+    </main><br>
+  
+ 
     <?php include '../controller/footer.php'; ?>
 </body>
 

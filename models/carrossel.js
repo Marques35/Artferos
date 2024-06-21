@@ -26,7 +26,7 @@ let autoScrollInterval = setInterval(() => {
     if (itemsContainer.scrollLeft + itemsContainer.clientWidth >= itemsContainer.scrollWidth) {
         itemsContainer.scrollTo({ left: 0, behavior: 'smooth' });
     }
-}, 5000); // Change the interval (3000ms = 3s) as needed
+}, 4000); // Change the interval (3000ms = 3s) as needed
 
 // Stop automatic scrolling on user interaction
 itemsContainer.addEventListener('wheel', () => {

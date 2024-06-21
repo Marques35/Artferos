@@ -14,7 +14,7 @@
   <main>
     <div id="items-wrapper">
         <div id="items">
-          <div class="item"><img src="../img/8436721_1.png" /></div>
+          <div class="item"><img src="../img/rolamoca.jpg" /></div>
           <div class="item"><img src="../img/7-71159_jungle-wallpaper-hd.jpg"></div>
           <div class="item"><img src="https://unsplash.it/1600/400?image=980" /></div>
           <div class="item"><img src="https://unsplash.it/1600/400?image=970" /></div>
@@ -26,7 +26,7 @@
   </main>
 
 
-  <script src="../view/carrossel.js"></script>
+  <script src="../models/carrossel.js"></script>
 </body>
 
 </html>

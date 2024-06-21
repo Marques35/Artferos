@@ -1,0 +1,176 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh; /* Faz com que o contêiner ocupe 100% da altura da viewport */
+    
+}
+
+
+.slide-container {
+  margin-top: -350px;
+  
+  max-width: 2000px;
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #ffffff;
+  flex: 0 0 auto;
+  width: 20vw; /* Use vw for proportional scaling */
+  max-width: 300px;
+  margin: 0 15px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.158);
+ 
+}
+
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(97, 202, 87);
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(97, 202, 87);
+}
+
+.overlay::after {
+  border-radius: 0 40px 0 0;
+  background-color: #FFF;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgb(97, 202, 87);
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: justify;
+  max-height: 95px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.4s ease;
+  
+}
+
+
+.overflow {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.toggle {
+  border: none;
+  background-color: rgb(76, 221, 63);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  color: #202020;
+}
+
+.toggle:hover {
+  background-color: transparent;
+  color: rgb(97, 202, 87);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .card {
+    width: 80vw; /* Use vw for proportional scaling */
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}

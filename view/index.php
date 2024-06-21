@@ -41,6 +41,6 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     <!-- Include the Clarifai JavaScript library from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/clarifai@latest/dist/clarifai.min.js"></script>
     <!-- Link to the external JavaScript file -->
-    <script src="script.js"></script>
+    <script src="../models/script.js"></script>
 </body>
 </html>
