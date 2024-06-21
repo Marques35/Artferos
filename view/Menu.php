@@ -72,7 +72,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         </section>
     </main>
 
-    <main class="function">
+    <main class="function" id="como funciona">
         <h1 class="title-function">Como Funciona:</h1>
         <p class="text-p">Nosso site utiliza inteligência artificial para identificar animais a partir de imagens. Siga esses passos simples:</p>
         <ol class="text-ol">
@@ -83,7 +83,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         <p class="text-p2">Simples assim! Experimente agora e descubra qual animal você encontrou.</p>
     </main>
 
-    <main>
+    <main >
         <?php include '../controller/sobrenos.html'; ?>
     </main><br>
 

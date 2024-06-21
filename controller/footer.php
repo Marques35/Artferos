@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <footer>
+    <footer id="footer-contato">
         <div class="container-footer">
             <div class="row-footer">
                 <!-- footer col-->
                 <div class="footer-col">
                     <h4>Projeto Minas</h4>
                     <ul>
-                        <li><a href="#"> Início</a></li>
-                        <li><a href=""> Sobre Nós </a></li>
-                        <li><a href="">  Como Funciona ?</a></li>
+                        <li><a href="#inicio"> Início</a></li>
+                        <li><a href="#sobre-nos"> Sobre Nós </a></li>
+                        <li><a href="#como funciona">  Como Funciona ?</a></li>
                         <li><a href=""> política de privacidade</a></li>
                     </ul>
                 </div>
