@@ -34,7 +34,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
                         <form action="index.php">
                             <div class="btn-contato">
-                                    <button>Identifique seu Animal !</button>
+                                <button>Identifique seu Animal !</button>
                             </div>
                         </form>
 
@@ -56,15 +56,15 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                 <div class="cards">
                     <div class="card-item"><img src="../img/image-removebg-preview.png" alt="imagem 1"></div>
                     <p class="text-card">
-                    <h1>10</h1>  Parques Ecológicos presentes na busca da I.A
+                    <h1>10</h1> Parques Ecológicos presentes na busca da I.A
                     </p>
                 </div>
 
                 <div class="cards">
-                    <div class="card-item"><img src="../img/image-removebg-animal.png" alt="imagem 1"></div>     
+                    <div class="card-item"><img src="../img/image-removebg-animal.png" alt="imagem 1"></div>
                     <p class="text-card">
                     <h1>50</h1>
-                     Mamíferos já presentes na busca da I.A
+                    Mamíferos já presentes na busca da I.A
                     </p>
                 </div>
             </div>
@@ -72,11 +72,22 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         </section>
     </main>
 
+    <main class="function">
+        <h1 class="title-function">Como Funciona:</h1>
+        <p class="text-p">Nosso site utiliza inteligência artificial para identificar animais a partir de imagens. Siga esses passos simples:</p>
+        <ol class="text-ol">
+            <li>1. Acesse a opção "Identifique seu animal".</li>
+            <li>2. Envie uma foto do animal que deseja identificar.</li>
+            <li>3. Nossa IA analisará a imagem e fornecerá rapidamente a identificação do animal.</li>
+        </ol>
+        <p class="text-p2">Simples assim! Experimente agora e descubra qual animal você encontrou.</p>
+    </main>
+
     <main>
-    <?php include '../controller/sobrenos.html'; ?>
+        <?php include '../controller/sobrenos.html'; ?>
     </main><br>
-  
- 
+
+
     <?php include '../controller/footer.php'; ?>
 </body>
 

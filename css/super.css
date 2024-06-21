@@ -205,6 +205,7 @@ section.topo-do-site.flex {
     font-weight: 900;
     font-size: 70px;
     line-height: 40px;  
+    
 }
 
 .text-card {
@@ -227,3 +228,44 @@ section.topo-do-site.flex {
     }
 }
 
+
+/* como funciona */
+
+.function{
+background-color: rgb(17, 56, 16);
+margin-top: 250px;
+height: 550px;
+display: flex;
+
+
+}
+
+.title-function{
+    margin-left: 50px;
+    margin-top: -300px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 50px;
+  
+}
+.text-p{
+    color: white;
+    margin-left: -350px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+
+.text-ol{
+    color: white;
+    margin-left: -1140px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+
+.text-p2{
+    color: white;
+    margin-left: -850px;
+    margin-top: 250px;
+    font-size: 20px;
+}

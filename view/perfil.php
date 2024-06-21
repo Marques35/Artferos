@@ -61,7 +61,7 @@ $conn = null;
 
 <body>
 
-    <?php include '../controller/cabecalho.php'; ?>
+    <?php include '../controller/cabecalho-perfil.php'; ?>
 
     <main>
         <section>
