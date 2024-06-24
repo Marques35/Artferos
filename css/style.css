@@ -72,4 +72,23 @@ div i{
     justify-content: center;
 }
 
+/* cabeçalho landing-page */
 
+.ul-color ul li > a{
+    color: white;
+}
+
+.container-page{
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 100px;
+    backdrop-filter: blur(10px);
+}
+
+.cabecalho-landingpage{
+    margin-top: -35px;
+}
+
+.logo img{
+    width: 140px;
+    
+}
