@@ -50,6 +50,7 @@ body {
 
 header {
     padding: 40px 4%;
+    margin-top: -5px;
 }
 
 header>.cabecalho {
@@ -68,6 +69,11 @@ header a {
 header a:hover {
     color: rgba(134.01931017637253, 167.87500709295273, 90.93228980898857, 1);
     transform: scale(1.05);
+}
+
+.logo1 img{
+    width: 90px;
+    
 }
 
 .menu-desktop ul{

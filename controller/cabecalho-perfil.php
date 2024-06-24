@@ -1,7 +1,7 @@
 <header>
 
         <div class="cabecalho align-items-center">
-            <div class="logo">
+            <div class="logo1">
                 <a href="Menu.php">
                     <img src="../img/logo 1.png">
                 </a>

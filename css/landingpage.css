@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed; /* opcional, se você quiser que a imagem fique fixa */
+    background-attachment: fixed; 
 }
 .des{
     text-align: justify;
@@ -62,7 +62,7 @@ body {
     line-height: 1.3em;
 }
 .carousel .list .item .topic{
-    color: #f1683a;
+    color: #3af162;
 }
 .carousel .list .item .buttons{
     display: grid;

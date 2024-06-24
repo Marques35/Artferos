@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root{
+    --fonte: "Poppins", sans-serif;
+ 
+}
+
 body {
     background-image: url("../img/7-71159_jungle-wallpaper-hd.jpg") ;
-    background-size: 2500px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    font-family: Arial, sans-serif;
-    
+    background-attachment: fixed; 
+    font-family: var(--fonte);
 }
 
 

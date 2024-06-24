@@ -13,16 +13,15 @@
 </div>
 
 <div class="cabecalho align-items-center">
-    <div class="logo">
-            <img src="../img/teste (1).png">
+    <div class="logo-page">
+            <img src="../img/logobranca.png">
     </div><!--Logo-->
 
     <nav class="menu-desktop">
         <div class="ul-color">
         <ul class="d-flex p-0 m-0">
-            <li class="list-group-item "><a href="#sobre-nos">Sobre</a></li>
             <li class="list-group-item "><a href="#footer-contato">Contato</a></li>
-           
+            <li class="list-group-item "><a href="../view/login.php">Login</a></li>
         </ul>
         </div>
         

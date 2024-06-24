@@ -25,13 +25,11 @@
                     <div class="topic">ANIMAL</div>
                     <div class="des">
                         <!-- lorem 50 -->
-                        O Projeto Minas visa promover o reconhecimento e a preservação dos animais nos parques de preservação de Minas Gerais através de imagens. Utilizando tecnologias avançadas, nosso site permite a identificação de diversas espécies que habitam esses parques. Oferecemos uma plataforma educativa para aumentar a conscientização sobre a importância da fauna local. Junte-se a nós nessa missão de proteger a rica biodiversidade de Minas Gerais e contribuir para a sustentabilidade dos ecossistemas naturais.
-
-
+                        O Projeto Minas visa promover o reconhecimento e a preservação dos animais nos parques de preservação de Minas Gerais através de imagens. O mesmo permite a identificação de diversas espécies de mamíferos que habitam esses parques. Oferecemos uma plataforma educativa para aumentar a conscientização sobre a importância da fauna local. Junte-se a nós nessa missão de proteger a rica biodiversidade de Minas Gerais e contribuir para a sustentabilidade dos ecossistemas naturais.
                     </div><br>
-                    <form action="login.php">
-                            <div class="btn-contato">
-                                <button>Login</button>
+                    <form action="cadastro.php">
+                            <div class="btn-contato-page">
+                                <button>Cadastre-se</button>
                             </div>
                         </form>
                 </div>

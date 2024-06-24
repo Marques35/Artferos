@@ -78,10 +78,10 @@ div i{
     color: white;
 }
 
-.container-page{
-    background-color: rgba(0, 0, 0, 0.466);
-    height: 100px;
-    backdrop-filter: blur(10px);
+/* .logo-page { */
+
+.logo-page img{
+    width: 90px;
 }
 
 .cabecalho-landingpage{
@@ -91,4 +91,20 @@ div i{
 .logo img{
     width: 140px;
     
+}
+
+.btn-contato-page button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3af162;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato-page button:hover {
+    box-shadow: 8px 8px 8px rgba(83, 148, 67, 0.658);
+    transform: scale(1.05);
+    transition: .2s;
 }
