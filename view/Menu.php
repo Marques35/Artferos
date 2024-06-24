@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/super.css">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- google fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:it
 al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 00;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- google fonts -->
     <link rel="stylesheet" href="../css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Projeto Minas</title>
 </head>
 
@@ -22,7 +24,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
     <?php include '../controller/cabecalho.php'; ?>
 
-    <main>
+    <main  data-aos="fade-left">
         <section class="topo-do-site">
 
             <div class="interface">
@@ -49,7 +51,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     </main>
     <?php include '../controller/carrossel.php'; ?>
 
-    <main>
+    <main data-aos="fade-left">
         <section class="body-card">
             <div class="container-cards">
 
@@ -73,22 +75,34 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     </main>
 
     <main class="function" id="como funciona">
-        <h1 class="title-function">Como Funciona:</h1>
-        <p class="text-p">Nosso site utiliza inteligência artificial para identificar animais a partir de imagens. Siga esses passos simples:</p>
-        <ol class="text-ol">
-            <li>1. Acesse a opção "Identifique seu animal".</li>
-            <li>2. Envie uma foto do animal que deseja identificar.</li>
-            <li>3. Nossa IA analisará a imagem e fornecerá rapidamente a identificação do animal.</li>
-        </ol>
-        <p class="text-p2">Simples assim! Experimente agora e descubra qual animal você encontrou.</p>
+      
+            <div class="title-container"    data-aos="fade-up">
+                <h1 class="title-function">Como Funciona:</h1>
+            </div>
+            <div class="content-function"    data-aos="fade-up">
+                <div class="texto">
+                    <p>Nosso site utiliza inteligência artificial para identificar animais a partir de imagens. Siga esses passos simples:</p>
+                    <ol>
+                        <li>1. Acesse a opção "Identifique seu animal".</li>
+                        <li>2. Envie uma foto do animal que deseja identificar.</li>
+                        <li>3. Nossa IA analisará a imagem e fornecerá rapidamente a identificação do animal.</li>
+                    </ol>
+                    <p>Simples assim! Experimente agora e descubra qual animal você encontrou.</p>
+
     </main>
 
-    <main >
+
+    <main>
         <?php include '../controller/sobrenos.html'; ?>
     </main><br>
 
 
     <?php include '../controller/footer.php'; ?>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

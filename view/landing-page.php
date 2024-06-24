@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/super.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Landing-Page</title>
 </head>
 
@@ -16,10 +17,10 @@
     <?php include '../controller/cabecalho-page.php'; ?>
 
     <section>
-    <div class="carousel">
+    <div class="carousel"  data-aos="fade-right">
     <div class="list">
             <div class="item">
-                <div class="content">
+                <div class="content"   >
                     <div class="author">Projeto Minas</div>
                     <div class="title">DESCUBRA SEU</div>
                     <div class="topic">ANIMAL</div>
@@ -39,7 +40,10 @@
     </section>
     <?php include '../controller/footer.php'; ?>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

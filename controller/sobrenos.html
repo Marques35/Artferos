@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
 
 <head>
@@ -11,14 +10,14 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/sobrenos.css">
 
 </head>
 
 <body class="sobre-nos" >
 
-        <h1 id="sobre-nos" class="sobre">Sobre os Autores</h1>
+        <h1 id="sobre-nos" class="sobre"  data-aos="fade-right">Sobre os Autores</h1>
     <div class="slide-container swiper">
         <div class="slide-content">
             <div class="card-wrapper swiper-wrapper">
@@ -102,5 +101,10 @@
 
 <!-- JavaScript -->
 <script src="../models/lermais.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 10000 });
+    </script>
 
 </html>

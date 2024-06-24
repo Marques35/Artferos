@@ -1,31 +1,32 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 
-:root{
+:root {
     --fonte: "Poppins", sans-serif;
 }
 
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background: transparent;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: rgb(78, 167, 70);
     border-radius: 10px;
 }
 
-.menu-desktop ul li > a{
+.menu-desktop ul li>a {
     font-size: 1.4em;
     font-family: var(--fonte);
 }
@@ -42,7 +43,7 @@ body {
 }
 
 .flex img {
-   
+
     margin-top: -70px;
 }
 
@@ -71,12 +72,12 @@ header a:hover {
     transform: scale(1.05);
 }
 
-.logo1 img{
+.logo1 img {
     width: 90px;
-    
+
 }
 
-.menu-desktop ul{
+.menu-desktop ul {
     gap: 30px;
 }
 
@@ -96,7 +97,7 @@ header a:hover {
     transition: .2s;
 }
 
-div.button-perfil{
+div.button-perfil {
     display: flex;
     justify-content: center;
     gap: 1000px
@@ -109,12 +110,12 @@ section.topo-do-site {
     padding: 40px 10%;
 }
 
-.img-topo-site img{
- 
- width: 400px;
- 
- height: auto;
- display: block;
+.img-topo-site img {
+
+    width: 400px;
+
+    height: auto;
+    display: block;
 }
 
 
@@ -122,7 +123,7 @@ section.topo-do-site.flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
-    
+
 }
 
 
@@ -145,21 +146,22 @@ section.topo-do-site.flex {
     margin-bottom: 20px;
 }
 
- .topo-do-site .img-topo-site img{ 
+.topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
-} 
+}
 
- 
+
 
 /* Cards CSS */
 .body-card {
@@ -172,26 +174,27 @@ section.topo-do-site.flex {
     justify-content: center;
     gap: 200px;
     padding: 0 20px;
-   
+
 }
 
 .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;  
+    text-align: center;
     /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.418); */
     border-radius: 100%;
     background-color: rgb(236, 233, 233);
     position: relative;
-    flex: 1 1 calc(33.333% - 40px); /* Ajusta a largura dos cards */
+    flex: 1 1 calc(33.333% - 40px);
+    /* Ajusta a largura dos cards */
     box-sizing: border-box;
     max-width: 350px;
     max-height: 600px;
     padding: 50px;
 }
 
-.cards:hover{
+.cards:hover {
     transform: scale(1.05);
     transition: .2s;
 }
@@ -210,8 +213,8 @@ section.topo-do-site.flex {
     color: rgb(17, 54, 17);
     font-weight: 900;
     font-size: 70px;
-    line-height: 40px;  
-    
+    line-height: 40px;
+
 }
 
 .text-card {
@@ -224,54 +227,62 @@ section.topo-do-site.flex {
 /* Responsividade */
 @media (max-width: 768px) {
     .cards {
-        flex: 1 1 calc(100% - 40px); /* 2 cards por linha */
+        flex: 1 1 calc(100% - 40px);
+        /* 2 cards por linha */
     }
 }
 
 @media (max-width: 480px) {
     .cards {
-        flex: 1 1 calc(100% - 40px); /* 1 card por linha */
+        flex: 1 1 calc(100% - 40px);
+        /* 1 card por linha */
     }
 }
 
 
 /* como funciona */
 
-.function{
-background-color: rgb(17, 56, 16);
-margin-top: 330px;
-height: 550px;
-display: flex;
-
-
+/* Atualizado CSS */
+.function {
+    background: linear-gradient(to bottom right, rgb(62, 231, 84), rgb(30, 150, 50));
+    margin-top: 330px;
+    padding: 300px;
 }
 
-.title-function{
-    margin-left: 50px;
-    margin-top: -300px;
+.title-container {
+    text-align: center;
+ 
+    margin-top: -400px;
+}
+
+.title-function {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
     color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size: 50px;
+}
+
+.content-function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    margin-top: -100px;
+    gap: 100px;
+   
+}
+
+.texto {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    max-width: 900px; /* Ajuste conforme necessário */
+    text-align: justify;
   
 }
-.text-p{
-    color: white;
-    margin-left: -350px;
-    margin-top: -90px;
-    font-size: 20px;
-}
-
-.text-ol{
-    color: white;
-    margin-left: -1140px;
-    margin-top: 70px;
-    font-size: 20px;
-}
 
 
-.text-p2{
-    color: white;
-    margin-left: -850px;
-    margin-top: 250px;
-    font-size: 20px;
-}
+
+
+
