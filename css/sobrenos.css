@@ -52,7 +52,6 @@
   border-radius: 25px;
   background-color: #ffffff;
   flex: 0 0 auto;
-  width: 20vw; /* Use vw for proportional scaling */
   max-width: 300px;
   margin: 0 15px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.158);
