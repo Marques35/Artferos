@@ -14,11 +14,11 @@
   <main>
     <div id="items-wrapper">
         <div id="items">
-          <div class="item"><img src="../img/rolamoca.jpg" /></div>
+          <div class="item"><img src="../img/rolamoca.jpg"/></div>
           <div class="item"><img src="..img/Imagens_Carrosel/1.png"></div>
-          <div class="item"><img src="..img/Imagens_Carrosel/2.png"" /></div>
-          <div class="item"><img src="..img/Imagens_Carrosel/3.png"" /></div>
-          <div class="item"><img src="..img/Imagens_Carrosel/4.png"" /></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/2.png"/></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/3.png"/></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/4.png"/></div>
         </div>
     </div>
   </main>
