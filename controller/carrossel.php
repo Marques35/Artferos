@@ -15,12 +15,10 @@
     <div id="items-wrapper">
         <div id="items">
           <div class="item"><img src="../img/rolamoca.jpg" /></div>
-          <div class="item"><img src="../img/7-71159_jungle-wallpaper-hd.jpg"></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=980" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=970" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=976" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=993" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=969" /></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/1.png"></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/2.png"" /></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/3.png"" /></div>
+          <div class="item"><img src="..img/Imagens_Carrosel/4.png"" /></div>
         </div>
     </div>
   </main>
