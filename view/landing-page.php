@@ -38,7 +38,7 @@
     </div>
     </div>
     </section>
-    <?php include '../controller/footer.php'; ?>
+    <?php include '../controller/footer_landingP.php'; ?>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
