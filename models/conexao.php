@@ -17,9 +17,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, :senha)");
 
         // Bind dos parâmetros
-        $stmt->bindParam(':nome', $_POST['usuario']);
-        $stmt->bindParam(':email', $_POST['email']);
-        $stmt->bindParam(':senha', $_POST['senha']);
+        $stmt->bindParam(':nome', mysqli_real_escape_string($_POST['usuario']));
+        $stmt->bindParam(':email', mysqli_real_escape_string($_POST['email']));
+        $stmt->bindParam(':senha', mysqli_real_escape_string($_POST['senha']));
 
         // Executa a instrução preparada
         $stmt->execute();
