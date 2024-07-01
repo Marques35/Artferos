@@ -93,7 +93,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
 
     <main>
-        <?php include '../controller/sobrenos.html'; ?>
+        <?php include '../controller/sobrenos.php'; ?>
     </main><br>
 
 

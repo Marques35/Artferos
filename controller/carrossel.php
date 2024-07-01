@@ -14,13 +14,11 @@
   <main>
     <div id="items-wrapper">
         <div id="items">
-          <div class="item"><img src="../img/rolamoca.jpg" /></div>
-          <div class="item"><img src="../img/7-71159_jungle-wallpaper-hd.jpg"></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=980" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=970" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=976" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=993" /></div>
-          <div class="item"><img src="https://unsplash.it/1600/400?image=969" /></div>
+          <div class="item"><img src="../img/rolamoca.jpg"/></div>
+          <div class="item"><img src="../img/1.jpg"/></div>
+          <div class="item"><img src="../img/cuicá.jpg"/></div>
+          <div class="item"><img src="../img/3.jpg"/></div>
+          <div class="item"><img src="../img/lob-guara.jpg"/></div>
         </div>
     </div>
   </main>
