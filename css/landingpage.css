@@ -89,6 +89,7 @@ body {
     color: #eee;
 }
 
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .carousel .list .item .content{
