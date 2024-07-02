@@ -95,4 +95,20 @@ body {
     
     padding-right: none;
 }
+
+
+.carousel .list .item .content{
+   
+    top: 8%;
+    padding-right: none;
+}
+
+.content{
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 5%;
+    
+}
 }
