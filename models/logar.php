@@ -20,9 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    // Consulta SQL para verificar se o usuário existe
-    $sql = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha'";
-    $result = $conn->query($sql);
+    // Consulta SQL para verificar se o usuário existe usando prepared statements
+    $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = ? AND senha = ?");
+    $stmt->bind_param("ss", $email, $senha);
+
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
         // Usuário autenticado, obtém o ID e armazena na sessão
@@ -41,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Fecha a conexão
+    $stmt->close();
     $conn->close();
 }
 ?>

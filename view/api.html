@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teachable Machine Image Model</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+  <style>
+    #image-container {
+      margin-top: 20px;
+    }
+
+    #image-container img {
+      max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+      height: auto; /* Mantém a proporção da imagem */
+      max-height: 300px; /* Define a altura máxima da imagem para não ocupar muito espaço */
+      display: block; /* Remove espaço extra abaixo da imagem */
+      margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    #label-container {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .prediction {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .class-name {
+      font-weight: bold;
+    }
+
+    .probability {
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <input type="file" id="imagemSelecionada" accept="image/*" onchange="handleImageUpload(event)">
+  <div id="image-container">
+    <img id="imagemPreview" src="#" alt="Imagem selecionada">
+  </div>
+  <button type="button" onclick="analyze()">Analisar</button>
+  <div id="label-container"></div>
+  <script type="text/javascript">
+    const URL = "https://teachablemachine.withgoogle.com/models/4VJSfnPUq/";
+
+    let model, labelContainer, maxPredictions;
+
+    async function init() {
+      try {
+        const modelURL = URL + "model.json";
+        const metadataURL = URL + "metadata.json";
+
+        console.log("Carregando modelo...");
+        model = await tmImage.load(modelURL, metadataURL);
+        maxPredictions = model.getTotalClasses();
+        console.log("Modelo carregado com sucesso:", model);
+
+        // Configurar o contêiner de rótulos
+        labelContainer = document.getElementById("label-container");
+        for (let i = 0; i < maxPredictions; i++) {
+          labelContainer.appendChild(document.createElement("div"));
+        }
+      } catch (err) {
+        console.error("Erro ao iniciar a aplicação:", err);
+      }
+    }
+
+    function handleImageUpload(event) {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const imagemPreview = document.getElementById("imagemPreview");
+        imagemPreview.src = event.target.result;
+        console.log("Imagem carregada e exibida");
+
+        // Limpar o contêiner de rótulos
+        const labelContainer = document.getElementById("label-container");
+        labelContainer.innerHTML = "";
+      };
+
+      reader.readAsDataURL(file);
+    }
+
+    async function analyze() {
+      const imagemPreview = document.getElementById("imagemPreview");
+
+      if (!imagemPreview.src || imagemPreview.src === "#") {
+        alert("Por favor, carregue uma imagem primeiro.");
+        return;
+      }
+
+      if (!model) {
+        console.error("Modelo não carregado corretamente.");
+        return;
+      }
+
+      console.log("Analisando imagem...");
+      try {
+        const prediction = await model.predict(imagemPreview);
+        console.log(prediction); // Log para verificar previsões
+
+        // Encontrar a classe com maior probabilidade
+        let maxProbability = -1;
+        let maxClassIndex = -1;
+
+        for (let i = 0; i < maxPredictions; i++) {
+          if (prediction[i].probability > maxProbability) {
+            maxProbability = prediction[i].probability;
+            maxClassIndex = i;
+          }
+        }
+
+        // Limpar o contêiner de rótulos
+        const labelContainer = document.getElementById("label-container");
+        labelContainer.innerHTML = "";
+
+        // Exibir apenas a previsão com maior probabilidade
+        const className = prediction[maxClassIndex].className;
+        const probability = (prediction[maxClassIndex].probability * 100).toFixed(2);
+
+        // Criar elemento para exibir a previsão
+        const predictionElement = document.createElement("div");
+        predictionElement.classList.add("prediction");
+
+        // Montar o texto da previsão
+        const text = `<span class="class-name">${className}</span>: <span class="probability">${probability}%</span>`;
+
+        // Adicionar texto ao elemento da previsão
+        predictionElement.innerHTML = text;
+
+        // Adicionar elemento da previsão ao contêiner de rótulos
+        labelContainer.appendChild(predictionElement);
+      } catch (err) {
+        console.error("Erro ao analisar a imagem:", err);
+      }
+    }
+
+    // Inicializar o modelo quando a página carregar
+    window.onload = init;
+  </script>
+</body>
+</html>
