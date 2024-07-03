@@ -12,11 +12,11 @@
     }
 
     #image-container img {
-      max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-      height: auto; /* Mantém a proporção da imagem */
-      max-height: 300px; /* Define a altura máxima da imagem para não ocupar muito espaço */
-      display: block; /* Remove espaço extra abaixo da imagem */
-      margin: 0 auto; /* Centraliza a imagem horizontalmente */
+      max-width: 100%;
+      height: auto;
+      max-height: 300px;
+      display: block;
+      margin: 0 auto;
     }
 
     #label-container {
@@ -61,7 +61,6 @@
         maxPredictions = model.getTotalClasses();
         console.log("Modelo carregado com sucesso:", model);
 
-        // Configurar o contêiner de rótulos
         labelContainer = document.getElementById("label-container");
         for (let i = 0; i < maxPredictions; i++) {
           labelContainer.appendChild(document.createElement("div"));
@@ -80,7 +79,6 @@
         imagemPreview.src = event.target.result;
         console.log("Imagem carregada e exibida");
 
-        // Limpar o contêiner de rótulos
         const labelContainer = document.getElementById("label-container");
         labelContainer.innerHTML = "";
       };
@@ -104,9 +102,8 @@
       console.log("Analisando imagem...");
       try {
         const prediction = await model.predict(imagemPreview);
-        console.log(prediction); // Log para verificar previsões
+        console.log(prediction);
 
-        // Encontrar a classe com maior probabilidade
         let maxProbability = -1;
         let maxClassIndex = -1;
 
@@ -117,32 +114,25 @@
           }
         }
 
-        // Limpar o contêiner de rótulos
         const labelContainer = document.getElementById("label-container");
         labelContainer.innerHTML = "";
 
-        // Exibir apenas a previsão com maior probabilidade
         const className = prediction[maxClassIndex].className;
         const probability = (prediction[maxClassIndex].probability * 100).toFixed(2);
 
-        // Criar elemento para exibir a previsão
         const predictionElement = document.createElement("div");
         predictionElement.classList.add("prediction");
 
-        // Montar o texto da previsão
         const text = `<span class="class-name">${className}</span>: <span class="probability">${probability}%</span>`;
 
-        // Adicionar texto ao elemento da previsão
         predictionElement.innerHTML = text;
 
-        // Adicionar elemento da previsão ao contêiner de rótulos
         labelContainer.appendChild(predictionElement);
       } catch (err) {
         console.error("Erro ao analisar a imagem:", err);
       }
     }
 
-    // Inicializar o modelo quando a página carregar
     window.onload = init;
   </script>
 </body>

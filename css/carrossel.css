@@ -54,10 +54,12 @@ main{
         height: 80%;
     }
     #items{
-        margin-left: 10px;
+        margin-left: 0px;
         padding: 10px;
     }
     main{
         margin-top: 150px;
     }
 }
+
+

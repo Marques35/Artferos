@@ -36,7 +36,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                         <p>Ajudando você a indentificar espécies
                             mamíferas de Minas Gerais.</p>
 
-                        <form action="index.php">
+                        <form action="api.html">
                             <div class="btn-contato">
                                 <button>Identifique seu Animal !</button>
                             </div>
