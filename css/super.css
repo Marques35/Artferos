@@ -50,7 +50,7 @@ body {
 /* Estilo cabeçalho */
 
 header {
-    padding: 40px 4%;
+    padding: 40px 10%;
     margin-top: -5px;
 }
 
@@ -132,13 +132,16 @@ section.topo-do-site.flex {
 
 }
 
-
+.txt-topo-site{
+    margin-top: 50px;
+}
 
 .topo-do-site .txt-topo-site h1 {
     color: rgb(29, 44, 29);
     font-weight: 700;
     font-size: 42px;
     line-height: 40px;
+  
 }
 
 
