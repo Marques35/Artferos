@@ -103,11 +103,17 @@ div.button-perfil {
     gap: 1000px
 }
 
+@media  screen and (max-width: 1020px) {
+    .cabecalho{
+        margin-bottom: -50px;
+    }
+}
+
 
 /* Estilo do topo do site */
 
 section.topo-do-site {
-    padding: 40px 10%;
+    padding: 40px 4%;
 }
 
 .img-topo-site img {
@@ -130,7 +136,6 @@ section.topo-do-site.flex {
 
 .topo-do-site .txt-topo-site h1 {
     color: rgb(29, 44, 29);
-
     font-weight: 700;
     font-size: 42px;
     line-height: 40px;
@@ -158,6 +163,22 @@ section.topo-do-site.flex {
 
     100% {
         top: 30px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+   
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    .img-topo-site img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .menu-desktop {
+        display: none;
     }
 }
 
@@ -225,7 +246,13 @@ section.topo-do-site.flex {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    .container-cards{
+        width: 100%;
+        margin-top: -100px;
+        gap: 50px;
+    }
     .cards {
         flex: 1 1 calc(100% - 40px);
         /* 2 cards por linha */
@@ -233,9 +260,27 @@ section.topo-do-site.flex {
 }
 
 @media (max-width: 480px) {
+    .container-cards{
+        width: 100%;
+        margin-top: -200px;
+        gap: 100px;
+    }
     .cards {
         flex: 1 1 calc(100% - 40px);
         /* 1 card por linha */
+        max-width: 300px;
+        max-height: 300px;
+        bottom: 25px;
+    }
+    .card-item img{
+        width: 35px;
+        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .text-card{
+        bottom: 40px;
+        font-size: 30px;
+        padding: 5px;
     }
 }
 
@@ -271,7 +316,7 @@ section.topo-do-site.flex {
     margin: 0 auto;
     margin-top: -100px;
     gap: 100px;
-   
+    
 }
 
 .texto {
@@ -281,7 +326,19 @@ section.topo-do-site.flex {
     text-align: justify;
   
 }
+@media screen and (max-width: 768px) {
 
+    .content-function {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin: 0 auto;
+        margin-top: -100px;
+        gap: 100px;
+       
+    }
+}
 
 
 

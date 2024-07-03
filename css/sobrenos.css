@@ -163,10 +163,15 @@
 @media screen and (max-width: 768px) {
   .slide-content {
     margin: 0 10px;
+    
+  }
+  .slide-container{
+    margin-bottom: 300px;
   }
   .swiper-wrapper {
     flex-direction: column;
     padding: 20px;
+   
   }
   .card {
     width: 80vw; /* Use vw for proportional scaling */

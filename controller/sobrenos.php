@@ -17,8 +17,9 @@
 
 <body class="sobre-nos" >
 
-        <h1 id="sobre-nos" class="sobre"  data-aos="fade-right">Sobre os Autores</h1>
-    <div class="slide-container swiper">
+        
+    <div class="slide-container ">
+    <h1 id="sobre-nos" class="sobre"  data-aos="fade-right">Sobre os Autores</h1>
         <div class="slide-content">
             <div class="card-wrapper swiper-wrapper">
 
@@ -94,6 +95,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
 
 </body>
 
