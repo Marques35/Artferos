@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teachable Machine Image Model</title>
+  <link rel="stylesheet" href="../css/super.css">
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
   <style>
@@ -21,7 +22,7 @@
 
     #label-container {
       margin-top: 20px;
-      border: 1px solid #ccc;
+      border: 1px solid #ffffff;
       padding: 10px;
     }
 
@@ -40,11 +41,17 @@
   </style>
 </head>
 <body>
+  <br>
   <input type="file" id="imagemSelecionada" accept="image/*" onchange="handleImageUpload(event)">
+  
   <div id="image-container">
     <img id="imagemPreview" src="#" alt="Imagem selecionada">
   </div>
-  <button type="button" onclick="analyze()">Analisar</button>
+  
+
+  <button  type="button" onclick="analyze()">Analisar</button>
+  
+
   <div id="label-container"></div>
   <script type="text/javascript">
     const URL = "https://teachablemachine.withgoogle.com/models/4VJSfnPUq/";
