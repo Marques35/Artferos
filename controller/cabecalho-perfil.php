@@ -9,7 +9,7 @@
 
             <nav class="menu-desktop">
                 <ul class="d-flex p-0 m-0">
-                    <li class="list-group-item "><a href="../view/Menu.php">Home</a></li>
+                    <li class="list-group-item "><a href="../view/Menu.php">Voltar</a></li>
                     <li class="list-group-item "><a href="../view/Menu.php#sobre-nos">Sobre</a></li>
                     <li class="list-group-item "><a href="../view/Menu.php#footer-contato">Contato</a></li>
                 </ul>
