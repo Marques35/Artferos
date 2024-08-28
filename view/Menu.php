@@ -19,7 +19,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     <link rel="stylesheet" href="../css-bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Projeto Minas</title>
+    <title>Artferos</title>
 </head>
 
 <body class="animation">
@@ -104,7 +104,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
             <div class="row-footer">
                 <!-- footer col-->
                 <div class="footer-col">
-                    <h4>Projeto Minas</h4>
+                    <h4>Artferos</h4>
                     <ul>
                         <li><a href="#inicio"> Início</a></li>
                         <li><a href="#sobre-nos"> Sobre Nós </a></li>
@@ -117,7 +117,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                 <div class="footer-col">
                     <h4>Contato</h4>
                     <ul>
-                        <li>projetominas@gmail.com</li>
+                        <li>artferos@gmail.com</li>
                         <li>(31) 9 9999999</li>
                         <li>Brasil - Minas Gerais</li>
                     </ul>

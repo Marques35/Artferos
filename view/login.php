@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylecadastro.css">
-    <title>Login Projeto Minas</title>
+    <title>Login Artferos</title>
 
 
 </head>
@@ -15,7 +15,7 @@
 <body>
     <div>
         <form action="../models/logar.php" method="POST">
-            <img src="../img/teste (1).png" width="130">
+            <img src="../img/artferos.png" width="130">
             <h1>Login</h1>
             <input type="text" name="email" id="email" placeholder="Email" required>
             <br><br>

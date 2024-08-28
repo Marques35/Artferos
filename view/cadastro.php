@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <img src="../img/teste (1).png" width="130">
+        <img src="../img/artferos.png" width="130">
         <h1>Cadastro</h1>
         <form action="../models/conexao.php" method="POST">
             <input type="text" name="usuario" id="usuario" placeholder="Digite seu nome" required>

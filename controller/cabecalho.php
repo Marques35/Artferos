@@ -3,7 +3,7 @@
         <div class="cabecalho align-items-center">
             <div class="logo1">
                 <a href="Menu.php">
-                    <img src="../img/logo 1.png">
+                    <img src="../img/logo-artferos.png">
                 </a>
             </div><!--Logo-->
 

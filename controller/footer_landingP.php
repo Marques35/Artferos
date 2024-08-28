@@ -16,7 +16,7 @@
             <div class="row-footer">
                 <!-- footer col-->
                 <div class="footer-col">
-                    <h4>Projeto Minas</h4>
+                    <h4>Artferos</h4>
                     <ul>
                         <li><a href="#inicio"> Início</a></li>
                         <li><a href="#sobre-nos"> Sobre Nós </a></li>
@@ -29,7 +29,7 @@
                 <div class="footer-col">
                     <h4>Contato</h4>
                     <ul>
-                        <li>projetominas@gmail.com</li>
+                        <li>artferos@gmail.com</li>
                         <li>(31) 9 9999999</li>
                         <li>Brasil - Minas Gerais</li>
                     </ul>

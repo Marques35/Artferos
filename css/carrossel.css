@@ -60,6 +60,14 @@ main{
     main{
         margin-top: 150px;
     }
+
+    @media (max-width: 1920px){
+        .item img{
+            width: 100%;
+            height: 80%;
+        }
+
+    }
 }
 
 
