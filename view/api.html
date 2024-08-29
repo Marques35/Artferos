@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
   <style>
+
     #image-container {
       margin-top: 20px;
     }
@@ -42,15 +43,17 @@
 </head>
 <body>
   <br>
+  
+  
   <input type="file" id="imagemSelecionada" accept="image/*" onchange="handleImageUpload(event)">
   
   <div id="image-container">
     <img id="imagemPreview" src="#" alt="Imagem selecionada">
   </div>
   
-
+  <div class="btn-contato">
   <button  type="button" onclick="analyze()">Analisar</button>
-  
+  </div>
 
   <div id="label-container"></div>
   <script type="text/javascript">
