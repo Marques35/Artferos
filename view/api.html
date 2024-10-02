@@ -1,58 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teachable Machine Image Model</title>
   <link rel="stylesheet" href="../css/super.css">
+  <link rel="stylesheet" href="../css/API.css">
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
-  <style>
-
-    #image-container {
-      margin-top: 20px;
-    }
-
-    #image-container img {
-      max-width: 100%;
-      height: auto;
-      max-height: 300px;
-      display: block;
-      margin: 0 auto;
-    }
-
-    #label-container {
-      margin-top: 20px;
-      border: 1px solid #ffffff;
-      padding: 10px;
-    }
-
-    .prediction {
-      margin-bottom: 10px;
-      font-size: 16px;
-    }
-
-    .class-name {
-      font-weight: bold;
-    }
-
-    .probability {
-      color: #000000;
-    }
-  </style>
 </head>
+
 <body>
   <br>
-  
-  
+
   <input type="file" id="imagemSelecionada" accept="image/*" onchange="handleImageUpload(event)">
-  
+
   <div id="image-container">
+    <br>
     <img id="imagemPreview" src="#" alt="Imagem selecionada">
   </div>
-  
+
+
   <div class="btn-contato">
-  <button  type="button" onclick="analyze()">Analisar</button>
+    <br>
+    <button type="button" onclick="analyze()">Analisar</button>
   </div>
 
   <div id="label-container"></div>
@@ -84,7 +56,7 @@
       const file = event.target.files[0];
       const reader = new FileReader();
 
-      reader.onload = function(event) {
+      reader.onload = function (event) {
         const imagemPreview = document.getElementById("imagemPreview");
         imagemPreview.src = event.target.result;
         console.log("Imagem carregada e exibida");
@@ -145,5 +117,14 @@
 
     window.onload = init;
   </script>
+
+  <div class="mapBox">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6353.567831308609!2d-44.03189117239693!3d-20.061889259724108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20do%20rola%20mo%C3%A7a!5e1!3m2!1spt-BR!2sbr!4v1727891138046!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br>
 </body>
+
 </html>

@@ -60,7 +60,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
                 <div class="cards">
                     <div class="card-item"><img src="../img/image-removebg-preview.png" alt="imagem 1"></div>
                     <p class="text-card">
-                    <h1>10</h1> Parques Ecológicos presentes na busca da I.A
+                    <h1>1</h1> Parque Ecológico presente na busca da I.A
                     </p>
                 </div>
 

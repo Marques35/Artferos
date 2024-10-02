@@ -1,0 +1,44 @@
+
+
+#image-container {
+    margin-top: 20px;
+  }
+
+  #image-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin:  auto;
+    
+  }
+
+  #label-container {
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    
+  }
+
+  .prediction {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .class-name {
+    font-weight: bold;
+  }
+
+  .probability {
+    color: #000000;
+  }
+
+ .mapBox {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    margin-left: 350px;
+    
+    
+} 
