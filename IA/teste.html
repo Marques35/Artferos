@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação de Animais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        #container {
+            width: 300px;
+            text-align: center;
+        }
+        #image-preview {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        #label-container div {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Identificação de Animais</h1>
+        <p>Carregue uma imagem para identificar tamanduás ou onças-pardas.</p>
+        <input type="file" id="imageUpload" accept="image/*" onchange="handleFileSelect(event)">
+        <img id="image-preview" alt="Pré-visualização da imagem" />
+        <div id="result">Carregue uma imagem para identificar</div>
+        <div id="label-container"></div>
+    </div>
+
+    <!-- Importação das bibliotecas TensorFlow e Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+    <script>
+        // URLs para o modelo e os metadados
+        const MODEL_URL = "http://localhost:8000/Teste/model.json";
+        const METADATA_URL = "http://localhost:8000/Teste/metadata.json";
+
+        // Inicializa o modelo
+        async function initModel() {
+            const model = await tmImage.load(MODEL_URL, METADATA_URL);
+            return model;
+        }
+
+        // Função para fazer a predição
+        async function predictImage(image) {
+            const model = await initModel();
+            const predictions = await model.predict(image);
+
+            // Atualiza o container com as previsões
+            const labelContainer = document.getElementById("label-container");
+            labelContainer.innerHTML = ""; // Limpa as previsões anteriores
+
+            predictions.forEach(prediction => {
+                const probability = (prediction.probability * 100).toFixed(2);
+                const resultText = `${prediction.className}: ${probability}%`;
+                
+                // Cria um elemento de div para cada predição
+                const predictionElement = document.createElement("div");
+                predictionElement.textContent = resultText;
+                labelContainer.appendChild(predictionElement);
+            });
+        }
+
+        // Função para carregar e prever a imagem do usuário
+        async function handleFileSelect(event) {
+            const imageFile = event.target.files[0];
+            const imageElement = document.getElementById("image-preview");
+            imageElement.src = URL.createObjectURL(imageFile);
+            imageElement.onload = async () => {
+                const resultElement = document.getElementById("result");
+                resultElement.textContent = "Processando imagem...";
+
+                // Faz a predição e exibe os resultados
+                await predictImage(imageElement);
+
+                resultElement.textContent = "Resultado:";
+            };
+        }
+    </script>
+</body>
+</html>
