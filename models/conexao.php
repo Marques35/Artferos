@@ -8,6 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $database = "crud";
 
     try {
+        
         // Conecta ao banco de dados usando PDO
         $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
         // Define o modo de erro do PDO como exceção

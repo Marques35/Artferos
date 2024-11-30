@@ -19,6 +19,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
     <link rel="stylesheet" href="../css-bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    
     <title>Artferos</title>
 </head>
 

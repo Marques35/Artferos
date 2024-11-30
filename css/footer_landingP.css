@@ -17,6 +17,7 @@ footer{
     margin-top: auto;
 }
 .row-footer{
+    
     display: flex;
     flex-wrap: wrap;
 }

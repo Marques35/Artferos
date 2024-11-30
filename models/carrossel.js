@@ -6,6 +6,7 @@ itemsContainer.addEventListener("wheel", event => {
         itemsContainer.scrollBy({
             left: 1000, // Adjust the value to change the scroll amount
             behavior: 'smooth'
+            
         });
     }else{
         itemsContainer.scrollBy({

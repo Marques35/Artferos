@@ -8,6 +8,7 @@ document.querySelectorAll('.toggle').forEach(button => {
         e.target.dataset.state = isExpanded ? 'less' : 'more';
         e.target.innerHTML = isExpanded ? 'Ler menos' : 'Ler mais';
 
+        
         overflow.setAttribute('data-state', isExpanded ? 'hidden' : 'visible');
     });
 });

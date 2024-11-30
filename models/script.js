@@ -7,6 +7,7 @@ const MODEL_VERSION_ID = '1bf8b41a7c154eaca6203643ff6a75b6';
 document.getElementById('imageForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
+    
     const imageInput = document.getElementById('imageInput').files[0];
     const imageUrl = document.getElementById('imageUrl').value;
     const resultsDiv = document.getElementById('results');

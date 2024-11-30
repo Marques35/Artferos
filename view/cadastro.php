@@ -8,6 +8,7 @@
 </head>
 <body>
     <div>
+        
         <img src="../img/artferos.png" width="130">
         <h1>Cadastro</h1>
         <form action="../models/conexao.php" method="POST">

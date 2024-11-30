@@ -5,6 +5,7 @@
     --cor1: #24d140
 }
 * {
+    
     font-family: var(--fonte);
     font-weight: 500;
 }

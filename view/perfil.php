@@ -13,6 +13,7 @@ $username = "root";
 $password = "";
 $database = "crud";
 
+
 try {
     // Cria uma nova conexão PDO
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
