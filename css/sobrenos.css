@@ -167,6 +167,7 @@
   }
   .slide-container{
     margin-bottom: 300px;
+    
   }
   .swiper-wrapper {
     flex-direction: column;
@@ -177,5 +178,21 @@
     width: 80vw; /* Use vw for proportional scaling */
     max-width: 90%;
     margin-bottom: 20px;
+   
+  }
+
+  @media(max-width: 1020px){
+    .slide-container{
+     margin-bottom: 800px;
+     padding: 1px 0;
+     
+    }
+    .swiper-wrapper{
+      padding: 5px 0;
+      gap: 20px;
+    }
+    .sobre{
+      margin-top: -450px;
+    }
   }
 }

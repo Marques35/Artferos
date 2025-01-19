@@ -108,3 +108,19 @@ div i{
     transform: scale(1.05);
     transition: .2s;
 }
+
+@media screen and (max-width: 1020px){
+    .form{
+        height: 460px;
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 37px;
+        
+    }
+
+    div i{
+        right: 25%;
+    }
+
+   
+}

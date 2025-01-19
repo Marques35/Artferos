@@ -74,7 +74,7 @@ header a:hover {
 
 .logo1 img {
     width: 90px;
-   
+
 }
 
 .menu-desktop ul {
@@ -103,10 +103,11 @@ div.button-perfil {
     gap: 1000px
 }
 
-@media  screen and (max-width: 1020px) {
-    .cabecalho{
-        margin-bottom: -50px;
+@media screen and (max-width: 1020px) {
+    .cabecalho {
+        margin-bottom: -40px;
     }
+
 }
 
 
@@ -132,7 +133,7 @@ section.topo-do-site.flex {
 
 }
 
-.txt-topo-site{
+.txt-topo-site {
     margin-top: 50px;
 }
 
@@ -141,7 +142,7 @@ section.topo-do-site.flex {
     font-weight: 700;
     font-size: 42px;
     line-height: 40px;
-  
+
 }
 
 
@@ -169,15 +170,19 @@ section.topo-do-site.flex {
     }
 }
 
-@media screen and (max-width: 1020px){
-   
-    .flex{
+@media screen and (max-width: 1020px) {
+
+    .flex {
         flex-direction: column-reverse;
+        margin-right: 17%;
+        margin-top: -40px;
     }
 
     .img-topo-site img {
         width: 300px;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        padding-right: 100px;
+
     }
 
     .menu-desktop {
@@ -251,11 +256,14 @@ section.topo-do-site.flex {
 /* Responsividade */
 @media screen and (max-width: 768px) {
 
-    .container-cards{
+
+
+    .container-cards {
         width: 100%;
         margin-top: -100px;
         gap: 50px;
     }
+
     .cards {
         flex: 1 1 calc(100% - 40px);
         /* 2 cards por linha */
@@ -263,11 +271,12 @@ section.topo-do-site.flex {
 }
 
 @media (max-width: 480px) {
-    .container-cards{
+    .container-cards {
         width: 100%;
         margin-top: -200px;
         gap: 100px;
     }
+
     .cards {
         flex: 1 1 calc(100% - 40px);
         /* 1 card por linha */
@@ -275,12 +284,14 @@ section.topo-do-site.flex {
         max-height: 300px;
         bottom: 25px;
     }
-    .card-item img{
+
+    .card-item img {
         width: 35px;
         margin-bottom: 15px;
         margin-bottom: 30px;
     }
-    .text-card{
+
+    .text-card {
         bottom: 40px;
         font-size: 30px;
         padding: 5px;
@@ -299,7 +310,7 @@ section.topo-do-site.flex {
 
 .title-container {
     text-align: center;
- 
+
     margin-top: -400px;
 }
 
@@ -315,20 +326,23 @@ section.topo-do-site.flex {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    max-width: 1000px; /* Ajuste conforme necessário */
+    max-width: 1000px;
+    /* Ajuste conforme necessário */
     margin: 0 auto;
     margin-top: -100px;
     gap: 100px;
-    
+
 }
 
 .texto {
     font-size: 18px;
     color: rgb(255, 255, 255);
-    max-width: 900px; /* Ajuste conforme necessário */
+    max-width: 900px;
+    /* Ajuste conforme necessário */
     text-align: justify;
-  
+
 }
+
 @media screen and (max-width: 768px) {
 
     .content-function {
@@ -339,13 +353,18 @@ section.topo-do-site.flex {
         margin: 0 auto;
         margin-top: -100px;
         gap: 100px;
-       
+
     }
 
-    /* Map Box (google maps) */
+    .title-function {
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: -250px;
+    }
+
+    .texto {
+        margin-left: -230px;
+        font-size: 10px;
+    }
 
 }
-
-
-
-

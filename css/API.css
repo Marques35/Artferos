@@ -1,9 +1,12 @@
 
+.file{
+
+   margin-left: 500px;
+}
 
 #image-container {
     margin-top: 20px;
   }
-  
 
   #image-container img {
     max-width: 100%;
@@ -37,9 +40,27 @@
  .mapBox {
     position: relative;
     width: 600px;
-    height: 500px;
+    height: 450px;
     background: rgb(255, 255, 255);
-    margin-left: 350px;
+    margin-left: 380px;
+    overflow: hidden;
+    border-radius: 15px;
+    
     
     
 } 
+
+@media (max-width: 1020px){
+
+  .file{
+    padding:30px;
+    margin-left: 0px;
+  }
+
+  .mapBox {
+    width: 90%;
+    height: 45%;
+    margin-left: 20px;
+  }
+
+}
