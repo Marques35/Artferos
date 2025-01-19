@@ -135,8 +135,329 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         atividade: "Crepuscular e noturna",
         altura: "75-90 cm (ombro)",
         comprimento: "1,2-1,3 m (incluindo cauda)"
+      },
+
+      "raposa-do-campo": {
+        peso: "3-5 kg",
+        velocidade: "40 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e controlador de populações de pequenos animais",
+        reprodução: "Gestação de 50-60 dias, 2-5 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "11-13 anos (selvagem)",
+        atividade: "Crepuscular e noturna",
+        altura: "35-40 cm (ombro)",
+        comprimento: "65-85 cm (incluindo cauda)"
+      },
+
+      "mao-pelada": {
+        peso: "4-8 kg",
+        velocidade: "15-20 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Auxilia no controle de pequenos animais e na dispersão de sementes",
+        reprodução: "Gestação de 63-65 dias, 2-6 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "12-15 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "20-30 cm (ombro)",
+        comprimento: "50-70 cm (incluindo cauda)"
+      },
+
+      "coati": {
+        peso: "4-7 kg",
+        velocidade: "25-30 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e controlador de populações de insetos",
+        reprodução: "Gestação de 75-80 dias, 2-7 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "7-8 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "25-30 cm (ombro)",
+        comprimento: "85-110 cm (incluindo cauda)"
+      },
+
+      "irara": {
+        peso: "5-7 kg",
+        velocidade: "25-30 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Controlador de populações de pequenos animais e insetos",
+        reprodução: "Gestação de 63-65 dias, 1-3 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "12-15 anos (selvagem)",
+        atividade: "Diurna e crepuscular",
+        altura: "20-30 cm (ombro)",
+        comprimento: "90-110 cm (incluindo cauda)"
+      },
+
+      "lontra": {
+        peso: "7-12 kg",
+        velocidade: "10-12 km/h (em terra), 6-8 km/h (na água)",
+        dieta: "Carnívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Indicador de qualidade ambiental e controlador de populações de peixes",
+        reprodução: "Gestação de 60-70 dias, 1-3 filhotes",
+        status_conservacao: "Quase ameaçado",
+        tempoDeVida: "10-15 anos (selvagem)",
+        atividade: "Diurna e crepuscular",
+        altura: "25-30 cm (ombro)",
+        comprimento: "1-1,2 m (incluindo cauda)"
+      },
+
+      "ourico": {
+        peso: "0,8-1,5 kg",
+        velocidade: "2-4 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 34-49 dias, 1-2 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "5-7 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "10-15 cm (ombro)",
+        comprimento: "20-30 cm (incluindo espinhos)"
+      },
+
+      "prea": {
+        peso: "0,7-1,2 kg",
+        velocidade: "25-30 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
+        reprodução: "Gestação de 59-72 dias, 1-3 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "4-8 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "10-15 cm (ombro)",
+        comprimento: "20-40 cm"
+      },
+
+      "tatu-peba": {
+        peso: "3-6 kg",
+        velocidade: "20-25 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Aerador do solo e controlador de populações de insetos",
+        reprodução: "Gestação de 120 dias, 1-3 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "12-15 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "15-20 cm (ombro)",
+        comprimento: "40-60 cm (incluindo cauda)"
+      },
+
+      "tatu-galinha": {
+        peso: "5-10 kg",
+        velocidade: "30-35 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Aerador do solo e dispersor de sementes",
+        reprodução: "Gestação de 120 dias, 1-4 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "10-15 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "20-30 cm (ombro)",
+        comprimento: "50-70 cm (incluindo cauda)"
+      },
+
+      "caititus": {
+        peso: "20-30 kg",
+        velocidade: "35-40 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 140-150 dias, 2-4 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "9-10 anos (selvagem)",
+        atividade: "Diurna e crepuscular",
+        altura: "40-50 cm (ombro)",
+        comprimento: "90-100 cm"
+      },
+
+      "veado-catingueiro": {
+        peso: "20-25 kg",
+        velocidade: "40-50 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 200-220 dias, 1 filhote",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "10-12 anos (selvagem)",
+        atividade: "Crepuscular e noturna",
+        altura: "60-70 cm (ombro)",
+        comprimento: "100-120 cm"
+      },
+
+      "furao-pequeno": {
+        peso: "0,5-1 kg",
+        velocidade: "15-20 km/h",
+        dieta: "Carnívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Controlador de populações de pequenos animais",
+        reprodução: "Gestação de 40-42 dias, 2-4 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "6-8 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "10-15 cm (ombro)",
+        comprimento: "30-45 cm (incluindo cauda)"
+      },
+
+      "capivara": {
+        peso: "35-65 kg",
+        velocidade: "25-30 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
+        reprodução: "Gestação de 150 dias, 3-8 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "8-10 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "50-60 cm (ombro)",
+        comprimento: "100-130 cm"
+      },
+
+      "paca": {
+        peso: "6-12 kg",
+        velocidade: "20-25 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 115-120 dias, 1-2 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "13-15 anos (selvagem)",
+        atividade: "Noturna",
+        altura: "25-30 cm (ombro)",
+        comprimento: "60-80 cm"
+      },
+
+      "cutia": {
+        peso: "2-3 kg",
+        velocidade: "35-40 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 104-120 dias, 2-4 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "7-8 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "25-30 cm (ombro)",
+        comprimento: "45-60 cm"
+      },
+
+      "tamandua-bandeira": {
+        peso: "30-45 kg",
+        velocidade: "10-15 km/h",
+        dieta: "Insetívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Controlador de populações de insetos",
+        reprodução: "Gestação de 190-195 dias, 1 filhote",
+        status_conservacao: "Vulnerável",
+        tempoDeVida: "14-16 anos (selvagem)",
+        atividade: "Diurna e crepuscular",
+        altura: "60-90 cm (ombro)",
+        comprimento: "1,8-2,1 m (incluindo cauda)"
+      },
+
+      "tapeti": {
+        peso: "0,8-1,3 kg",
+        velocidade: "40-50 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
+        reprodução: "Gestação de 28-32 dias, 1-5 filhotes",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "3-5 anos (selvagem)",
+        atividade: "Crepuscular e noturna",
+        altura: "20-25 cm (ombro)",
+        comprimento: "30-45 cm"
+      },
+
+      "preguica-de-garganta-marrom": {
+        peso: "4-6 kg",
+        velocidade: "0,2-0,5 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 180 dias, 1 filhote",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "20-30 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "35-50 cm (ombro)",
+        comprimento: "50-70 cm"
+      },
+
+      "preguica-de-coleira": {
+        peso: "4-9 kg",
+        velocidade: "0,3-0,6 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 180-210 dias, 1 filhote",
+        status_conservacao: "Vulnerável",
+        tempoDeVida: "20-30 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "35-50 cm (ombro)",
+        comprimento: "50-80 cm"
+      },
+
+      "sagui-da-serra-escuro": {
+        peso: "0,3-0,4 kg",
+        velocidade: "20-25 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e controlador de insetos",
+        reprodução: "Gestação de 140-150 dias, 2-3 filhotes",
+        status_conservacao: "Vulnerável",
+        tempoDeVida: "10-12 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "15-20 cm (ombro)",
+        comprimento: "30-40 cm (incluindo cauda)"
+      },
+
+      "mico-leao-dourado": {
+        peso: "0,5-0,7 kg",
+        velocidade: "20-25 km/h",
+        dieta: "Onívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes e controlador de insetos",
+        reprodução: "Gestação de 126-132 dias, 1-3 filhotes",
+        status_conservacao: "Em perigo",
+        tempoDeVida: "15 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "20-25 cm (ombro)",
+        comprimento: "50-60 cm (incluindo cauda)"
+      },
+
+      "bugio-ruivo": {
+        peso: "6-8 kg",
+        velocidade: "30-35 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 186-194 dias, 1 filhote",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "15-20 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "40-50 cm (ombro)",
+        comprimento: "50-70 cm (excluindo cauda)"
+      },
+
+      "bugio-preto": {
+        peso: "6-9 kg",
+        velocidade: "30-35 km/h",
+        dieta: "Herbívoro",
+        perigoso: "Não",
+        importancia_ecologica: "Dispersor de sementes",
+        reprodução: "Gestação de 186-194 dias, 1 filhote",
+        status_conservacao: "Pouco preocupante",
+        tempoDeVida: "15-20 anos (selvagem)",
+        atividade: "Diurna",
+        altura: "40-50 cm (ombro)",
+        comprimento: "50-70 cm (excluindo cauda)"
       }
-     
     };
 
     // Função para inicializar o modelo
