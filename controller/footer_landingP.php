@@ -21,7 +21,7 @@
                         <li><a href="#inicio"> Início</a></li>
                         <li><a href="#sobre-nos"> Sobre Nós </a></li>
                         <li><a href="#como funciona"> Como Funciona ?</a></li>
-                        <li><a href=""> política de privacidade</a></li>
+                       
                     </ul>
                 </div>
                 <!--end footer col-->
@@ -30,7 +30,6 @@
                     <h4>Contato</h4>
                     <ul>
                         <li>artferos@gmail.com</li>
-                        <li>(31) 9 9999999</li>
                         <li>Brasil - Minas Gerais</li>
                     </ul>
                 </div>

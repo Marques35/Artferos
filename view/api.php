@@ -72,6 +72,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "48 km/h",
         dieta: "Carnívoro",
         nivel_de_seguranca: "Parcialmente seguro",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Controla populações de insetos como cupins e formigas",
         reproducao: "Gestação de aproximadamente 190 dias, 1 filhote por vez",
         status_conservacao: "Vulnerável",
@@ -85,6 +86,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "25-80 kg",
         velocidade: "80 km/h",
         dieta: "Carnívoro",
+        nivel_de_seguranca: "Perigoso",
         nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Predador de topo, regula populações de presas",
         reproducao: "Gestação de 90-96 dias, 1-6 filhotes",
@@ -100,6 +102,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "60 km/h",
         dieta: "Carnívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controla populações de pequenos roedores e aves",
         reproducao: "Gestação de 63-66 dias, 1-4 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -113,6 +116,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "2-5 kg",
         velocidade: "40 km/h",
         dieta: "Carnívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controla populações de pequenos animais",
         reproducao: "Gestação de 70-78 dias, 1-3 filhotes",
@@ -128,6 +132,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "65 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de pequenos animais",
         reproducao: "Gestação de 60-65 dias, 2-6 filhotes",
         status_conservacao: "Quase ameaçado",
@@ -141,6 +146,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "3-5 kg",
         velocidade: "40 km/h",
         dieta: "Onívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de populações de pequenos animais",
         reproducao: "Gestação de 50-60 dias, 2-5 filhotes",
@@ -156,6 +162,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "15-20 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Perigoso",
+        nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Auxilia no controle de pequenos animais e na dispersão de sementes",
         reproducao: "Gestação de 63-65 dias, 2-6 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -169,6 +176,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "4-7 kg",
         velocidade: "25-30 km/h",
         dieta: "Onívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de populações de insetos",
         reproducao: "Gestação de 75-80 dias, 2-7 filhotes",
@@ -184,6 +192,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "25-30 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Perigoso",
+        nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Controlador de populações de pequenos animais e insetos",
         reproducao: "Gestação de 63-65 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -197,6 +206,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "7-12 kg",
         velocidade: "10-12 km/h (em terra), 6-8 km/h (na água)",
         dieta: "Carnívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Indicador de qualidade ambiental e controlador de populações de peixes",
         reproducao: "Gestação de 60-70 dias, 1-3 filhotes",
@@ -212,6 +222,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "2-4 km/h",
         dieta: "Herbívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 34-49 dias, 1-2 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -225,6 +236,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "0,7-1,2 kg",
         velocidade: "25-30 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
         reproducao: "Gestação de 59-72 dias, 1-3 filhotes",
@@ -240,6 +252,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Aerador do solo e controlador de populações de insetos",
         reproducao: "Gestação de 120 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -253,6 +266,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "5-10 kg",
         velocidade: "30-35 km/h",
         dieta: "Onívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Aerador do solo e dispersor de sementes",
         reproducao: "Gestação de 120 dias, 1-4 filhotes",
@@ -268,6 +282,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "35-40 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Parcialmente seguro",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 140-150 dias, 2-4 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -281,6 +296,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "20-25 kg",
         velocidade: "40-50 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 200-220 dias, 1 filhote",
@@ -296,6 +312,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "15-20 km/h",
         dieta: "Carnívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controlador de populações de pequenos animais",
         reproducao: "Gestação de 40-42 dias, 2-4 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -309,6 +326,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "35-65 kg",
         velocidade: "25-30 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
         reproducao: "Gestação de 150 dias, 3-8 filhotes",
@@ -324,6 +342,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "20-25 km/h",
         dieta: "Herbívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 115-120 dias, 1-2 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -337,6 +356,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "2-3 kg",
         velocidade: "35-40 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 104-120 dias, 2-4 filhotes",
@@ -352,6 +372,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "10-15 km/h",
         dieta: "Insetívoro",
         nivel_de_seguranca: "Parcialmente seguro",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Controlador de populações de insetos",
         reproducao: "Gestação de 190-195 dias, 1 filhote",
         status_conservacao: "Vulnerável",
@@ -365,6 +386,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "0,8-1,3 kg",
         velocidade: "40-50 km/h",
         dieta: "Herbívoro",
+        nivel_de_segurança: "Seguro",
         nivel_de_segurança: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
         reproducao: "Gestação de 28-32 dias, 1-5 filhotes",
@@ -380,6 +402,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "0,2-0,5 km/h",
         dieta: "Herbívoro",
         nivel_de_seguranca: "Parcialmente seguro",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 180 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
@@ -393,6 +416,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "4-9 kg",
         velocidade: "0,3-0,6 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Parcialmente seguro",
         nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 180-210 dias, 1 filhote",
@@ -408,6 +432,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
         nivel_de_seguranca: "Seguro",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de insetos",
         reproducao: "Gestação de 140-150 dias, 2-3 filhotes",
         status_conservacao: "Vulnerável",
@@ -421,6 +446,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "0,5-0,7 kg",
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
+        nivel_de_seguranca: "Seguro",
         nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de insetos",
         reproducao: "Gestação de 126-132 dias, 1-3 filhotes",
@@ -436,6 +462,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         velocidade: "30-35 km/h",
         dieta: "Herbívoro",
         nivel_de_seguranca: "Parcialmente seguro",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 186-194 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
@@ -449,6 +476,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "6-9 kg",
         velocidade: "30-35 km/h",
         dieta: "Herbívoro",
+        nivel_de_seguranca: "Parcialmente seguro",
         nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
         reproducao: "Gestação de 186-194 dias, 1 filhote",
@@ -507,6 +535,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
       }
 
       if (!model) {
+        console.error("Modelo Seguro carregado corretamente.");
         console.error("Modelo Seguro carregado corretamente.");
         return;
       }
@@ -603,7 +632,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
-  </div>
+
     `;
 
 
@@ -611,7 +640,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
         
       } else {
-        animalContainer.innerHTML = "<p>Informações sobre este animal não estão disponíveis.</p>";
+        animalContainer.innerHTML = "<p>Informações sobre este animal Seguro estão disponíveis.</p>";
       }
     }
 
