@@ -21,7 +21,7 @@
     margin-top: 20px;
     border: 1px solid #ffffff;
     padding: 10px;
-    
+    margin-left: 585px;
   }
 
   .prediction {
@@ -49,6 +49,11 @@
     
     
 } 
+
+.text{
+  margin-left: 500px;
+  margin-top: 20px;
+}
 
 @media (max-width: 1020px){
 

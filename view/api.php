@@ -57,7 +57,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "7-15 kg",
         velocidade: "58 km/h",
         dieta: "Carnívoro",
-        perigoso: "Sim",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Controla populações de pequenos mamíferos e aves",
         reproducao: "Gestação de 70-85 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -71,7 +71,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "3-7 kg",
         velocidade: "48 km/h",
         dieta: "Carnívoro",
-        perigoso: "Sim",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Controla populações de insetos como cupins e formigas",
         reproducao: "Gestação de aproximadamente 190 dias, 1 filhote por vez",
         status_conservacao: "Vulnerável",
@@ -81,11 +81,11 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "90-130 cm (incluindo cauda)"
       },
 
-      "onça-parda": {
+      "onça parda": {
         peso: "25-80 kg",
         velocidade: "80 km/h",
         dieta: "Carnívoro",
-        perigoso: "Sim",
+        nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Predador de topo, regula populações de presas",
         reproducao: "Gestação de 90-96 dias, 1-6 filhotes",
         status_conservacao: "Quase ameaçado",
@@ -95,11 +95,11 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "1,5-2,4 m (incluindo cauda)"
       },
 
-      "gato-mourisco": {
+      "gato mourisco": {
         peso: "5-8 kg",
         velocidade: "60 km/h",
         dieta: "Carnívoro",
-        perigoso: "Sim",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controla populações de pequenos roedores e aves",
         reproducao: "Gestação de 63-66 dias, 1-4 filhotes",
         status_conservacao: "Pouco preocupante",
@@ -109,11 +109,11 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "90-120 cm (incluindo cauda)"
       },
 
-      "gato-do-mato": {
+      "gato do mato": {
         peso: "2-5 kg",
         velocidade: "40 km/h",
         dieta: "Carnívoro",
-        perigoso: "Sim",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controla populações de pequenos animais",
         reproducao: "Gestação de 70-78 dias, 1-3 filhotes",
         status_conservacao: "Quase ameaçado",
@@ -127,7 +127,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "20-30 kg",
         velocidade: "65 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de pequenos animais",
         reproducao: "Gestação de 60-65 dias, 2-6 filhotes",
         status_conservacao: "Quase ameaçado",
@@ -137,13 +137,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "1,2-1,3 m (incluindo cauda)"
       },
 
-      "raposa-do-campo": {
+      "raposa do campo": {
         peso: "3-5 kg",
         velocidade: "40 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de populações de pequenos animais",
-        reprodução: "Gestação de 50-60 dias, 2-5 filhotes",
+        reproducao: "Gestação de 50-60 dias, 2-5 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "11-13 anos (selvagem)",
         atividade: "Crepuscular e noturna",
@@ -151,13 +151,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "65-85 cm (incluindo cauda)"
       },
 
-      "mao-pelada": {
+      "mão-pelada": {
         peso: "4-8 kg",
         velocidade: "15-20 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Auxilia no controle de pequenos animais e na dispersão de sementes",
-        reprodução: "Gestação de 63-65 dias, 2-6 filhotes",
+        reproducao: "Gestação de 63-65 dias, 2-6 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "12-15 anos (selvagem)",
         atividade: "Noturna",
@@ -169,9 +169,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "4-7 kg",
         velocidade: "25-30 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de populações de insetos",
-        reprodução: "Gestação de 75-80 dias, 2-7 filhotes",
+        reproducao: "Gestação de 75-80 dias, 2-7 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "7-8 anos (selvagem)",
         atividade: "Diurna",
@@ -183,9 +183,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "5-7 kg",
         velocidade: "25-30 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Perigoso",
         importancia_ecologica: "Controlador de populações de pequenos animais e insetos",
-        reprodução: "Gestação de 63-65 dias, 1-3 filhotes",
+        reproducao: "Gestação de 63-65 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "12-15 anos (selvagem)",
         atividade: "Diurna e crepuscular",
@@ -197,9 +197,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "7-12 kg",
         velocidade: "10-12 km/h (em terra), 6-8 km/h (na água)",
         dieta: "Carnívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Indicador de qualidade ambiental e controlador de populações de peixes",
-        reprodução: "Gestação de 60-70 dias, 1-3 filhotes",
+        reproducao: "Gestação de 60-70 dias, 1-3 filhotes",
         status_conservacao: "Quase ameaçado",
         tempoDeVida: "10-15 anos (selvagem)",
         atividade: "Diurna e crepuscular",
@@ -207,13 +207,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "1-1,2 m (incluindo cauda)"
       },
 
-      "ourico": {
+      "ouriço": {
         peso: "0,8-1,5 kg",
         velocidade: "2-4 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 34-49 dias, 1-2 filhotes",
+        reproducao: "Gestação de 34-49 dias, 1-2 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "5-7 anos (selvagem)",
         atividade: "Noturna",
@@ -221,13 +221,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "20-30 cm (incluindo espinhos)"
       },
 
-      "prea": {
+      "preá": {
         peso: "0,7-1,2 kg",
         velocidade: "25-30 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
-        reprodução: "Gestação de 59-72 dias, 1-3 filhotes",
+        reproducao: "Gestação de 59-72 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "4-8 anos (selvagem)",
         atividade: "Diurna",
@@ -235,13 +235,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "20-40 cm"
       },
 
-      "tatu-peba": {
+      "tatu peba": {
         peso: "3-6 kg",
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Aerador do solo e controlador de populações de insetos",
-        reprodução: "Gestação de 120 dias, 1-3 filhotes",
+        reproducao: "Gestação de 120 dias, 1-3 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "12-15 anos (selvagem)",
         atividade: "Noturna",
@@ -253,9 +253,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "5-10 kg",
         velocidade: "30-35 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Aerador do solo e dispersor de sementes",
-        reprodução: "Gestação de 120 dias, 1-4 filhotes",
+        reproducao: "Gestação de 120 dias, 1-4 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "10-15 anos (selvagem)",
         atividade: "Noturna",
@@ -267,9 +267,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "20-30 kg",
         velocidade: "35-40 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 140-150 dias, 2-4 filhotes",
+        reproducao: "Gestação de 140-150 dias, 2-4 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "9-10 anos (selvagem)",
         atividade: "Diurna e crepuscular",
@@ -277,13 +277,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "90-100 cm"
       },
 
-      "veado-catingueiro": {
+      "veado catingueiro": {
         peso: "20-25 kg",
         velocidade: "40-50 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 200-220 dias, 1 filhote",
+        reproducao: "Gestação de 200-220 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "10-12 anos (selvagem)",
         atividade: "Crepuscular e noturna",
@@ -291,13 +291,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "100-120 cm"
       },
 
-      "furao-pequeno": {
+      "furão pequeno": {
         peso: "0,5-1 kg",
         velocidade: "15-20 km/h",
         dieta: "Carnívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Controlador de populações de pequenos animais",
-        reprodução: "Gestação de 40-42 dias, 2-4 filhotes",
+        reproducao: "Gestação de 40-42 dias, 2-4 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "6-8 anos (selvagem)",
         atividade: "Noturna",
@@ -309,9 +309,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "35-65 kg",
         velocidade: "25-30 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
-        reprodução: "Gestação de 150 dias, 3-8 filhotes",
+        reproducao: "Gestação de 150 dias, 3-8 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "8-10 anos (selvagem)",
         atividade: "Diurna",
@@ -323,9 +323,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "6-12 kg",
         velocidade: "20-25 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 115-120 dias, 1-2 filhotes",
+        reproducao: "Gestação de 115-120 dias, 1-2 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "13-15 anos (selvagem)",
         atividade: "Noturna",
@@ -337,9 +337,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "2-3 kg",
         velocidade: "35-40 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 104-120 dias, 2-4 filhotes",
+        reproducao: "Gestação de 104-120 dias, 2-4 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "7-8 anos (selvagem)",
         atividade: "Diurna",
@@ -347,13 +347,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "45-60 cm"
       },
 
-      "tamandua-bandeira": {
+      "tamanduá bandeira": {
         peso: "30-45 kg",
         velocidade: "10-15 km/h",
         dieta: "Insetívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Controlador de populações de insetos",
-        reprodução: "Gestação de 190-195 dias, 1 filhote",
+        reproducao: "Gestação de 190-195 dias, 1 filhote",
         status_conservacao: "Vulnerável",
         tempoDeVida: "14-16 anos (selvagem)",
         atividade: "Diurna e crepuscular",
@@ -365,9 +365,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         peso: "0,8-1,3 kg",
         velocidade: "40-50 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_segurança: "Seguro",
         importancia_ecologica: "Dispersor de sementes e parte da cadeia alimentar",
-        reprodução: "Gestação de 28-32 dias, 1-5 filhotes",
+        reproducao: "Gestação de 28-32 dias, 1-5 filhotes",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "3-5 anos (selvagem)",
         atividade: "Crepuscular e noturna",
@@ -375,13 +375,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "30-45 cm"
       },
 
-      "preguica-de-garganta-marrom": {
+      "preguiça de garganta marrom": {
         peso: "4-6 kg",
         velocidade: "0,2-0,5 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 180 dias, 1 filhote",
+        reproducao: "Gestação de 180 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "20-30 anos (selvagem)",
         atividade: "Diurna",
@@ -389,13 +389,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "50-70 cm"
       },
 
-      "preguica-de-coleira": {
+      "preguiça de coleira": {
         peso: "4-9 kg",
         velocidade: "0,3-0,6 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 180-210 dias, 1 filhote",
+        reproducao: "Gestação de 180-210 dias, 1 filhote",
         status_conservacao: "Vulnerável",
         tempoDeVida: "20-30 anos (selvagem)",
         atividade: "Diurna",
@@ -403,13 +403,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "50-80 cm"
       },
 
-      "sagui-da-serra-escuro": {
+      "sagui da serra escuro": {
         peso: "0,3-0,4 kg",
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de insetos",
-        reprodução: "Gestação de 140-150 dias, 2-3 filhotes",
+        reproducao: "Gestação de 140-150 dias, 2-3 filhotes",
         status_conservacao: "Vulnerável",
         tempoDeVida: "10-12 anos (selvagem)",
         atividade: "Diurna",
@@ -417,13 +417,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "30-40 cm (incluindo cauda)"
       },
 
-      "mico-leao-dourado": {
+      "mico leão dourado": {
         peso: "0,5-0,7 kg",
         velocidade: "20-25 km/h",
         dieta: "Onívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Seguro",
         importancia_ecologica: "Dispersor de sementes e controlador de insetos",
-        reprodução: "Gestação de 126-132 dias, 1-3 filhotes",
+        reproducao: "Gestação de 126-132 dias, 1-3 filhotes",
         status_conservacao: "Em perigo",
         tempoDeVida: "15 anos (selvagem)",
         atividade: "Diurna",
@@ -431,13 +431,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "50-60 cm (incluindo cauda)"
       },
 
-      "bugio-ruivo": {
+      "bugio ruivo": {
         peso: "6-8 kg",
         velocidade: "30-35 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 186-194 dias, 1 filhote",
+        reproducao: "Gestação de 186-194 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "15-20 anos (selvagem)",
         atividade: "Diurna",
@@ -445,13 +445,13 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
         comprimento: "50-70 cm (excluindo cauda)"
       },
 
-      "bugio-preto": {
+      "bugio preto": {
         peso: "6-9 kg",
         velocidade: "30-35 km/h",
         dieta: "Herbívoro",
-        perigoso: "Não",
+        nivel_de_seguranca: "Parcialmente seguro",
         importancia_ecologica: "Dispersor de sementes",
-        reprodução: "Gestação de 186-194 dias, 1 filhote",
+        reproducao: "Gestação de 186-194 dias, 1 filhote",
         status_conservacao: "Pouco preocupante",
         tempoDeVida: "15-20 anos (selvagem)",
         atividade: "Diurna",
@@ -507,7 +507,7 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
       }
 
       if (!model) {
-        console.error("Modelo não carregado corretamente.");
+        console.error("Modelo Seguro carregado corretamente.");
         return;
       }
 
@@ -562,48 +562,60 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
       if (animalInfo[animalName.toLowerCase()]) {
         const info = animalInfo[animalName.toLowerCase()];
 
-        // Definindo a cor do frame com base na periculosidade do animal
-        const frameColor = info.perigoso.toLowerCase() === "sim" ? "red" :"rgb(0, 197, 43)";
+        // Verificando o nível de segurança e ajustando a cor e texto correspondentes
+        let frameColor;
+        let titleText;
 
+        if (info.nivel_de_seguranca.toLowerCase() === "perigoso") {
+          frameColor = "red";
+          titleText = "ANIMAL POTENCIALMENTE PERIGOSO!";
+        } else if (info.nivel_de_seguranca.toLowerCase() === "parcialmente seguro") {
+          frameColor = "rgb(255, 196, 0)";
+          titleText = "ANIMAL PARCIALMENTE PERIGOSO!";
+        } else {
+          frameColor = "rgb(0, 197, 43)";
+          titleText = "ANIMAL PACÍFICO";
+        }
 
-        const infoText = `	
-          <div style = " border: 3px solid ${frameColor}; padding: 10px; margin: 55px; border-radius: 15px; background-color: ${frameColor}; color: white;">
-          <h2 style="text-align: center;">${info.perigoso === "Sim" ? "ANIMAL POTENCIALMENTE PERIGOSO!" : "ANIMAL PACÍFICO"}</h2>
-
-          <h3 style="text-align: center;">Características do(a) ${animalName.charAt(0).toUpperCase() + animalName.slice(1)}: </h3><br>
-          <p><strong>Peso:</strong> ${info.peso}</p>  
-          <p><strong>Velocidade:</strong> ${info.velocidade}</p>  
-          <p><strong>Dieta:</strong> ${info.dieta}</p>  
-          <p><strong>Perigoso:</strong> ${info.perigoso}</p>  
-          <p><strong>Importância Ecológica:</strong> ${info.importancia_ecologica}</p>   
-          <p><strong>Reprodução:</strong> ${info.reproducao}</p>      
-          <p><strong>Status de Conservação:</strong> ${info.status_conservacao}</p>     
-          <p><strong>Tempo de Vida:</strong> ${info.tempoDeVida}</p>  
-          <p><strong>Atividade:</strong> ${info.atividade}</p>  
-          <p><strong>Altura:</strong> ${info.altura}</p>  
-          <p><strong>Comprimento:</strong> ${info.comprimento}</p>  
-          </div>
-  
-          <br><br>
-      
-            <h4 style="text-align: center;">Mapa Habitacional</h4>
-            <div style="text-align: center;">
-
-        <div class="mapBox">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6353.567831308609!2d-44.03189117239693!3d-20.061889259724108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20do%20rola%20mo%C3%A7a!5e1!3m2!1spt-BR!2sbr!4v1727891138046!5m2!1spt-BR!2sbr"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+        const infoText = `
+  <div style="border: 3px solid ${frameColor}; padding: 10px; margin: 55px; border-radius: 25px; background-color: ${frameColor}; color: white;">
+    <h2 style="text-align: center;">${titleText}</h2>
+    <h3 style="text-align: center;">Características do(a) ${animalName.charAt(0).toUpperCase() + animalName.slice(1)}: </h3><br>
+    <p><strong>Peso:</strong> ${info.peso}</p>  
+    <p><strong>Velocidade:</strong> ${info.velocidade}</p>  
+    <p><strong>Dieta:</strong> ${info.dieta}</p>  
+    <p><strong>Nível de Segurança:</strong> ${info.nivel_de_seguranca}</p>  
+    <p><strong>Importância Ecológica:</strong> ${info.importancia_ecologica}</p>   
+    <p><strong>Reprodução:</strong> ${info.reproducao}</p>      
+    <p><strong>Status de Conservação:</strong> ${info.status_conservacao}</p>     
+    <p><strong>Tempo de Vida:</strong> ${info.tempoDeVida}</p>  
+    <p><strong>Atividade:</strong> ${info.atividade}</p>  
+    <p><strong>Altura:</strong> ${info.altura}</p>  
+    <p><strong>Comprimento:</strong> ${info.comprimento}</p>
   </div>
-
+  <br><br>
+  <h4 style="text-align: center;">Mapa Habitacional</h4>
+  <div style="text-align: center;">
+    <div class="mapBox">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6353.567831308609!2d-44.03189117239693!3d-20.061889259724108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20do%20rola%20mo%C3%A7a!5e1!3m2!1spt-BR!2sbr!4v1727891138046!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
     `;
 
 
         animalContainer.innerHTML = infoText;
+
+        
       } else {
         animalContainer.innerHTML = "<p>Informações sobre este animal não estão disponíveis.</p>";
       }
     }
+
+    
 
     window.onload = init;
   </script>
