@@ -591,6 +591,9 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
       if (animalInfo[animalName.toLowerCase()]) {
         const info = animalInfo[animalName.toLowerCase()];
 
+
+        
+
         // Verificando o nível de segurança e ajustando a cor e texto correspondentes
         let frameColor;
         let titleText;
@@ -635,16 +638,20 @@ al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1
 
     `;
 
-
         animalContainer.innerHTML = infoText;
 
-        
-      } else {
+      } else if (!animalInfo[animalName.toLowerCase()] || animalName.toLowerCase().trim() === "não tem nada"){
         animalContainer.innerHTML = "<p>Informações sobre este animal Seguro estão disponíveis.</p>";
+        animalContainer.innerHTML = `
+      <div style="border: 3px solid gray; padding: 20px; margin: 55px; margin-top: 5px; border-radius: 25px; background-color: lightgray; color: black;">
+        <h2 style="text-align: center;">Nenhum animal foi identificado !</h2>
+        <p style="text-align: center;">Por favor, envie uma imagem com maior qualidade ou certifique-se de que há um animal na foto.</p>
+      </div>`;
+          return;
       }
     }
 
-    
+
 
     window.onload = init;
   </script>
